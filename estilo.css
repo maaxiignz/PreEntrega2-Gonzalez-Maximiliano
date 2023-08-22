@@ -1927,9 +1927,9 @@ text-transform: uppercase;
     }
 }
 
-/*Inica Responsive Contacto 1446px*/
+/*Inica Responsive Contacto 1440px*/
 
-@media only screen and (min-width: 1446px)
+@media only screen and (min-width: 1440px)
 {
     .contacto h1{
         text-align: center;
