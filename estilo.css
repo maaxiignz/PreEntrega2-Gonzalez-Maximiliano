@@ -912,3 +912,134 @@ text-transform: uppercase;
     margin-right: 85px;
 }
 }
+
+/*Inica Responsive Producto 1024px*/
+
+@media only screen and (min-width: 1024px)
+{
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+        font-size: 20px;
+    }
+    
+    .galeria {
+        width: 905px;
+        height: 300px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 200px);  
+        grid-template-areas: 
+        "img1 img1 img2 img3"
+        "img1 img1 img2 img4"
+        "img5 img6 img7 img8"
+        "img9 img9 img10 img10"; 
+    }
+    .ofertaCaoba h1{
+        margin-top: 550px;
+    }
+    .ofertaNogal h1{
+        margin-top: 550px;
+    }
+    .ofertaPino h1{
+        margin-top: 550px;
+    }
+    .ofertaArce h1{
+        margin-top: 550px;
+    }
+    .ofertaCedro h1{
+        margin-top: 550px;
+    }
+    .redes{
+        margin-top: -56px;
+        margin-left: -240px;
+    }
+    .footer{
+        background-color: black;
+        text-align: center;
+        padding-left: 800px;
+        margin-top: 600px;
+        
+    }
+    .footer h1{
+        margin-left: -480px;
+
+    }
+
+    .footer i{
+        margin: 0px;
+        padding: 50px;
+        padding-right: 20px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 40px;
+    }
+}
+
+/*Inica Responsive Quienes somos 1024px*/
+@media only screen and (min-width: 1024px)
+{
+    .nosotros h1.nosotros_H1 {
+    margin-right: -80px;
+    }
+    .nosotros img.img1_nosotros {
+        margin-top: -20px;
+        width: 970px;
+    }
+    .nosotros h2.text1_nosotros {
+        margin-right: -77px;
+        padding: 20px;
+    }
+    .nosotros h2.text2_productos {
+        margin-right: -77px;
+        padding: 20px;
+    }
+    .nosotros img.img2 {
+        margin-top: 10px;
+        width: 970px;
+    }
+    .footer{
+        background-color: black;
+        text-align: center;
+        padding-left: 800px;
+        margin-top: 600px;
+        
+    }
+    .pie h1{
+        margin-left: -480px;
+
+    }
+    .redes{
+        margin-top: -56px;
+        margin-left: -240px;
+    }
+    
+    .redes i{
+        margin: 0px;
+        padding: 50px;
+        padding-right: 20px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 40px;
+    }
+}
