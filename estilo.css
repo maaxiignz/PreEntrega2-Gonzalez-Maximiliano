@@ -698,3 +698,217 @@ text-transform: uppercase;
     margin-left: 68%;
     margin-bottom: 500px;
 }
+
+
+/*Inica Responsive Productos 480px*/
+
+@media only screen and (min-width: 480px)
+{
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin: 30px;
+        display: grid ;   
+    }
+    .producto h1 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .galeria{
+        margin-top: -30px;
+        margin-left: 50px;
+        width: 360px;
+        height: 300px; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);  
+        grid-template-areas: 
+        "img1 img2"
+        "img3 img4"
+        "img5 img6"
+        "img7 img8"
+        "img9 img10"; 
+    }
+    .ofertaCaoba h1{
+        margin-top: 760px;
+    }
+    .ofertaNogal h1{
+        margin-top: 760px;
+    }
+    .ofertaPino h1{
+        margin-top: 760px;
+    }
+    .ofertaArce h1{
+        margin-top: 760px;
+    }
+    .ofertaCedro h1{
+        margin-top: 760px;
+    }
+    .footer{
+        background-color: black;
+        padding-left: 18%;
+        margin-top: 760px;
+    }
+    .footer h1{
+        background-color: black;   
+    }
+    
+    .redes i{
+        padding:0;
+        margin-top: 100px;
+        font-size: 41px;
+        display: inline-flex;
+        margin-right: 85px;
+    }
+    .footer{
+        background-color: black;
+        padding-left: 18%;
+    }
+    
+    .footer i{
+        padding:0;
+        margin-top: 100px;
+        font-size: 41px;
+        display: inline-flex;
+        margin-right: 85px;
+    }
+}
+
+/*Inica Responsive Quienes Somos 480px*/
+@media only screen and (min-width: 480px)
+{
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin: 30px;
+        display: grid ;   
+    }
+
+    .nosotros{
+        margin-right: 100px;
+    }
+.nosotros h1.nosotros_H1{
+    text-align: left;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+.nosotros img.img1_nosotros{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 425px;
+    border-radius: 20px;
+}
+.nosotros h1{
+    background-color: black;
+    color: white;
+    display: grid;
+}
+
+.nosotros h1.woodplace{
+    background-color: black;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: -77px;
+    color: white;
+    display: grid;
+}
+
+.nosotros h2.text1_nosotros{
+    color: white;
+    background-color: black;
+    display: grid;
+    padding-right:400px ;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.nosotros h1.nuestrosProductos{
+    background-color: black;
+    text-align: left;
+    color: white;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-right: -77px;
+
+}
+
+.nosotros h2.text2_productos{
+    background-color: black;
+    display: flex;
+    margin-left: 30px;  
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    display: grid;
+    padding-right:400px ;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.nosotros img.img2{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    width: 425px;
+}
+
+.footer{
+    background-color: black;
+    padding-left: 18%;
+}
+.footer h1{
+    background-color: black;   
+}
+
+.redes i{
+    padding:0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
+}
+}
