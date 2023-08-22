@@ -1324,3 +1324,272 @@ text-transform: uppercase;
     font-size: 50px;
 }
 }
+
+/*Inica Responsive Producto 1446px*/
+
+@media only screen and (min-width: 1446px)
+{
+    .header h1{
+        color: white;
+        margin: 30px;
+        background-color: black;
+        margin-bottom: 0;
+        padding: 50px;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .header h1 li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    .header h1 li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+    .producto h1{
+        text-align: center;
+        margin: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+        margin-left: 400px;
+        margin-right: 400px;
+        
+    }
+    
+    .galeria{
+        display: grid;
+        text-align: center;
+        margin-left: 100px;
+        width: 1700px;
+        height: 900px; 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 200px);  
+        grid-template-areas: 
+        "img1 img1 img2 img3"
+        "img1 img1 img2 img4"
+        "img5 img6 img7 img8"
+        "img9 img9 img10 img10";                    
+        grid-gap: 15px;
+        padding: 15px;   
+    }
+
+    
+    .footer{
+        background-color: black;
+        text-align: center;
+        padding-left: 800px;
+        margin-top: 5px;
+    
+    }
+    .footer h1{
+        background-color: black;
+        padding: 50px;
+        margin-left: -50px;
+        margin-top: 0px;
+        color: white;
+        position: absolute; 
+    }
+    .redes{
+        margin-top: -56px;
+        background-color: black;
+    }
+    .redes i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 50px;
+    }
+    
+}
+
+/*Inica Responsive Producto 1446px*/
+@media only screen and (min-width: 1446px)
+{
+
+    .header h1{
+        color: white;
+        margin: 30px;
+        background-color: black;
+        margin-bottom: 0;
+        padding: 50px;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .header h1 li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    .header h1 li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+    .nosotros h1{
+        background-color: black;
+        color: white;
+        display: inline;
+    }
+    
+    .nosotros h1.nosotros_H1{
+        text-align: left;
+        margin-left: 300px;
+        background-color: black;
+        color: white;
+        margin-bottom: 40px;
+        margin-right: 1000px;
+        padding: 10px;
+        padding-right: 415px;
+        border-radius: 20px;
+    }
+    .nosotros img.img1_nosotros{
+        margin-left: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 700px;
+        width: 600px;
+        border-radius: 20px;
+    }
+    .nosotros h1.woodplace{
+        background-color: black;
+        text-align: center;
+        color: white;
+        display: flex;
+        margin-top: -700px;
+        margin-left: 950px;
+        margin-right: 350px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .nosotros h2.text1_nosotros{
+        color: white;
+        background-color: black;
+        display: flex;
+        margin-left: 950px;
+        margin-top: 60px;
+        margin-right: 350px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    .nosotros h1.nuestrosProductos{
+        color: white;
+        margin-top: -1000px;
+        margin-left: 300px;   
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .nosotros h1.nuestrosProductos{
+        background-color: black;
+        text-align: center;
+        color: white;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-right: 950px;
+        border-radius: 20px;
+        padding-right: -500px;
+    }
+    .nosotros h2.text2_productos{
+        color: white;
+        background-color: black;
+        display: flex;
+        margin-left: 300px;  
+        margin-top: 60px;
+        margin-right: 950px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    .nosotros img.img2{
+        
+        margin-left: 910px;
+        margin-top: -520px;
+        margin-bottom: 20px;
+        height: 700px;
+        width: 560px;
+        border-radius: 20px;
+    }
+    
+    .footer{
+        background-color: black;
+        text-align: center;
+        padding-left: 800px;
+        margin-top: 600px;
+    
+    }
+    .footer h1{
+        background-color: black;
+        padding: 50px;
+        margin-left: -50px;
+        margin-top: 0px;
+        color: white;
+        position: absolute; 
+    }
+    .redes{
+        margin-top: -56px;
+        background-color: black;
+    }
+    .redes i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 50px;
+    }
+}
