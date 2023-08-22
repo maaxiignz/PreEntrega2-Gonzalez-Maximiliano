@@ -1043,3 +1043,284 @@ text-transform: uppercase;
         font-size: 40px;
     }
 }
+
+
+
+/*Inica Responsive Producto 1440px*/
+
+@media only screen and (min-width: 1440px)
+{
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+    .logo h1{
+        color: white;
+        margin: 30px;
+        background-color: black;
+        margin-bottom: 0;
+        padding: 50px;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .logo h1 li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    .logo h1 li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    .opciones a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.opciones {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.opciones li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+    
+    .galeria {
+        margin-top: -30px;
+        margin-left: 15px;
+        width: 1380px;
+        height: 300px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 200px);  
+        grid-template-areas: 
+        "img1 img1 img2 img3"
+        "img1 img1 img2 img4"
+        "img5 img6 img7 img8"
+        "img9 img9 img10 img10"; 
+    }
+    .ofertaCaoba h1{
+        margin-top: 550px;
+    }
+    .ofertaNogal h1{
+        margin-top: 550px;
+    }
+    .ofertaPino h1{
+        margin-top: 550px;
+    }
+    .ofertaArce h1{
+        margin-top: 550px;
+    }
+    .ofertaCedro h1{
+        margin-top: 550px;
+    }
+    .redes{
+        margin-top: -56px;
+    }
+    .footer{
+        background-color: black;
+        text-align: center;
+        padding-left: 800px;
+        margin-top: 600px;
+        
+    }
+    .footer h1{
+        margin-left: -290px;
+
+    }
+    .redes{  
+        background-color: black;
+    }
+    .redes i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 50px;
+    }
+}
+
+/*Inica Responsive Quienes somos 1440px*/
+@media only screen and (min-width: 1440px)
+{
+
+    .header h1{
+        color: white;
+        margin: 30px;
+        background-color: black;
+        margin-bottom: 0;
+        padding: 50px;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .header h1 li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    .header h1 li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    .nav a{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        
+    }
+    ul.nav {
+        padding: 20px;
+        margin: 30px;
+        margin-top: 0;
+        background-color: black;
+        font-size: 20px;
+        text-align: center; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;   
+    }
+    ul.nav li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+
+    .nosotros{
+        margin-right: 100px;
+    }
+.nosotros h1.nosotros_H1{
+    text-align: left;
+    margin: 30px;
+    margin-right: -70px;
+    background-color: black;
+    color: white;
+}
+.nosotros img.img1_nosotros{
+    margin-left: 30px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 1380px;
+    border-radius: 20px;
+}
+.nosotros h1{
+    background-color: black;
+    color: white;
+    display: grid;
+}
+
+.nosotros h1.woodplace{
+    background-color: black;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: -77px;
+    color: white;
+    display: grid;
+}
+
+.nosotros h2.text1_nosotros{
+    color: white;
+    background-color: black;
+    display: grid;
+    padding-right:400px ;
+    margin-top: 10px;
+    margin-right: -75px;
+    margin-left: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.nosotros h1.nuestrosProductos{
+    background-color: black;
+    text-align: left;
+    color: white;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-right: -75px;
+
+}
+
+.nosotros h2.text2_productos{
+    background-color: black;
+    display: flex;
+    margin-left: 30px;  
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    display: grid;
+    padding-right:400px ;
+    margin-top: 10px;
+    margin-right: -75px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.nosotros img.img2{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    width: 1380px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 600px;
+    
+}
+.footer h1{
+    margin-left: -290px;
+
+}
+.redes{
+    margin-top: -56px;
+    background-color: black;
+}
+.redes i{
+    margin: 0px;
+    padding: 50px;
+    position:  relative; 
+    background-color: black;
+    color: white;  
+    font-size: 50px;
+}
+}
