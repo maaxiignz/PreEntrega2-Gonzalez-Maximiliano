@@ -786,6 +786,117 @@ text-transform: uppercase;
         margin-right: 55px;
     }
 }
+/*Inica Responsive Profesionales 375px*/
+@media only screen and (min-width: 375px)
+{
+    .profesionales h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-right: 30px;
+        margin-left: 34px;
+        border-radius: 5px;;
+    }
+    .profesionales h2.text1_profesionales {
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .profesionales img.img1_profesionales {
+        text-align: center;
+        margin-top: 490px;
+        margin-left: 30px;
+        height: 200px;
+        width: 295px;
+    }
+
+    .profesionales h2.text2_profesionales {
+        text-transform: uppercase;
+        margin-top: 250px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .profesionales img.img2_profesionales {
+        text-align: center;
+        margin-top: 720px;
+        margin-left: 30px;
+        height: 200px;
+        width: 295px;
+    }
+
+    .profesionales img.img3_profesionales {
+        text-align: center;
+        margin-top: 255px;
+        height: 200px;
+        width: 295px;
+        margin-left: 30px;
+        border-radius: 20px;
+    }
+
+    .trabajaConNosotros h2 {
+        text-align: center;
+        margin-top: 490px;
+        font-size: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+    }
+
+    .trabajaConNosotros h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+    }
+    .trabajaConNosotros input.nya_trabajaConNosotros {
+        margin-left: 31px;
+        margin-top: 30px;
+        font-size: 24px;
+        background-color: black;
+    }
+
+    .trabajaConNosotros input.prof_trabajaConNosotros {
+        margin-left: 30px;
+        margin-top: 80px;
+        font-size: 24px;
+        background-color: black;
+    }
+
+    .trabajaConNosotros input.ciudad_trabajaConNosotros {
+        margin-left: 31px;
+        margin-top: 130px;
+        padding-right: 10px;
+        font-size: 24px;
+        background-color: black;
+    }
+
+    .trabajaConNosotros input.mail_trabajaConNosotros {
+        margin-left: 30px;
+        margin-top: 180px;
+        padding-right: 10px;
+        font-size: 24px;
+    }
+
+    .trabajaConNosotros input.tel_trabajaConNosotros {
+        margin-left: 30px;
+        margin-top: 230px;
+        padding-right: 10px;
+        font-size: 24px;
+    }
+    .trabajaConNosotros input.button_trabajaConNosotros {
+        margin-left: 30px;
+        margin-top: 280px;
+        padding-right: 10px;
+        font-size: 25px;
+        background-color: black;
+    }
+}
 
 /*Inica Responsive Quienes Somos 375px*/
 @media only screen and (min-width: 375px)
@@ -1052,7 +1163,44 @@ text-transform: uppercase;
         margin-right: 85px;
     }
 }
-
+/*Inica Responsive Profesionales 480px*/
+@media only screen and (min-width: 480px)
+{
+    .profesionales img.img1_profesionales {
+        margin-top: 325px;
+        height: 200px;
+        width: 400px;
+    }
+    .profesionales img.img2_profesionales {
+        margin-top: 555px;
+        margin-left: 30px;
+        height: 200px;
+        width: 400px;
+    }
+    .profesionales img.img3_profesionales {
+        margin-top: 255px;
+        height: 200px;
+        width: 400px;
+    }
+    .trabajaConNosotros input{
+        padding-right: 95px;
+    }
+    .trabajaConNosotros input.prof_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    .trabajaConNosotros input.ciudad_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    .trabajaConNosotros input.mail_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    .trabajaConNosotros input.tel_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    .trabajaConNosotros input.button_trabajaConNosotros {
+        padding-right: 50px;
+    }
+}
 /*Inica Responsive Quienes Somos 480px*/
 @media only screen and (min-width: 480px)
 {
@@ -1193,7 +1341,7 @@ text-transform: uppercase;
         height: 310px;
     }
     .footer {
-        margin-top: -400px;
+        margin-top: 850px;
     }
 }
 /*Inica Responsive Producto 1024px*/
@@ -1277,7 +1425,85 @@ text-transform: uppercase;
         font-size: 40px;
     }
 }
+/*Inica Responsive Profesionales 1024px*/
+@media only screen and (min-width: 1024px)
+{
+    .profesionales h1 {
+        border-radius: 15px;
+    }
+    .profesionales h2.text1_profesionales {
+        margin-left: 500px;
+        margin-top: 75px;
+    }
+    .profesionales img.img1_profesionales {
+        margin-top: 20px;
+        height: 350px;
+        width: 425px;
+    }
+    .profesionales h2.text2_profesionales {
+        margin-top: 70px;
+        margin-right: 500px;
+    }
+    .profesionales img.img2_profesionales {
+        margin-top: 30px;
+        margin-left: 549px;
+        height: 350px;
+        width: 425px;
+    }
+    .profesionales img.img3_profesionales {
+        margin-top: 107px;
+        height: 340px;
+        width: 630px;
+        margin-left: 200px;
+    }
+    .trabajaConNosotros h2 {
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    .trabajaConNosotros h3 {
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+    }
 
+    .trabajaConNosotros input.nya_trabajaConNosotros{
+        padding-right: 95px;
+        font-size: 30px;    
+    }
+    .trabajaConNosotros input.prof_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 12px;
+        margin-left: 525px;
+    }
+    .trabajaConNosotros input.ciudad_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 75px;
+        padding-right: 590px;
+    }
+    .trabajaConNosotros input.mail_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 135px;
+        padding-right: 590px;
+    }
+    .trabajaConNosotros input.tel_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 195px;
+        padding-right: 590px;
+    }
+    .trabajaConNosotros input.button_trabajaConNosotros {
+        padding-right: 50px;
+        font-size: 30px;
+    }
+    .footer {
+        margin-top: 400px;
+    }
+}
 /*Inica Responsive Quienes somos 1024px*/
 @media only screen and (min-width: 1024px)
 {
@@ -1354,9 +1580,6 @@ text-transform: uppercase;
     }
     .contacto h2.num {
         font-size: 25px;
-    }
-    .footer {
-        margin-top: -400px;
     }
 }
 /*Inica Responsive Producto 1440px*/
@@ -1483,7 +1706,76 @@ text-transform: uppercase;
         font-size: 50px;
     }
 }
-
+/*Inica Responsive Profesionales 1440px*/
+@media only screen and (min-width: 1440px)
+{
+    .profesionales h1 {
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    .profesionales h2.text1_profesionales {
+        margin-left: 700px;
+        margin-top: 75px;
+    }
+    .profesionales img.img1_profesionales {
+        margin-top: 20px;
+        height: 310px;
+        width: 600px;
+    }
+    .profesionales h2.text2_profesionales {
+        margin-top: 140px;
+        margin-right: 705px;
+    }
+    .profesionales img.img2_profesionales {
+        margin-top: 30px;
+        margin-left: 775px;
+        height: 310px;
+        width: 600px;
+    }
+    .profesionales img.img3_profesionales {
+        margin-top: 105px;
+        height: 380px;
+        width: 900px;
+        margin-left: 295px;
+    }
+    .trabajaConNosotros h2 {
+        font-size: 40px;
+        border-radius: 20px;
+        margin-top: 570px;
+    }
+    .trabajaConNosotros input.nya_trabajaConNosotros {
+        margin-left: 205px;
+        padding-right: 30px;
+    }
+    .trabajaConNosotros input.prof_trabajaConNosotros {
+        margin-left: 745px;
+        padding-right: 10px;
+    }
+    .trabajaConNosotros input.ciudad_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 75px;
+        padding-right: 635px;
+        margin-left: 205px;
+    }
+    .trabajaConNosotros input.mail_trabajaConNosotros {
+        font-size: 30px;
+        margin-top: 135px;
+        padding-right: 635px;
+        margin-left: 205px;
+    }
+    .trabajaConNosotros input.tel_trabajaConNosotros {
+        padding-right: 95px;
+        font-size: 30px;
+        margin-top: 195px;
+        padding-right: 635px;
+        margin-left: 205px;
+    }
+    .trabajaConNosotros input.button_trabajaConNosotros {
+        padding-right: 49px;
+        margin-left: 205px;
+    }
+}
 /*Inica Responsive Quienes somos 1440px*/
 @media only screen and (min-width: 1440px)
 {
@@ -1652,9 +1944,6 @@ text-transform: uppercase;
         width: 665px;
         height: 370px;
     }
-    .footer {
-        margin-top: -400px;
-    }
 }
 
 
@@ -1764,8 +2053,153 @@ text-transform: uppercase;
     }
     
 }
-
-/*Inica Responsive Producto 1446px*/
+/*Inica Responsive Profesionales 1446px*/
+@media only screen and (min-width: 1446px)
+{
+    .profesionales h1{
+        text-align: center;
+        font-size: 40px;
+        margin-right:30px;
+        margin-left:30px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+    }
+    
+    .profesionales img{
+        width: 600px;
+        height: 400px;
+        border-radius: 20px;
+        border: 10px solid black;
+        position: absolute;
+    }
+    .profesionales img.img1_profesionales{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 200px;
+        
+    }
+    
+    .profesionales h2.text1_profesionales{
+        background-color: black;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 100px;
+        margin-left: 900px;
+        margin-right: 100px;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    
+    .profesionales img.img2_profesionales{
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 1000px;
+        width: 600px;
+        height: 400px;
+    }
+    
+    .profesionales h2.text2_profesionales{
+        background-color: black;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: 1000px;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    
+    .profesionales img.img3_profesionales{
+        text-align: center;
+        margin-top: 150px;
+        width: 800px;
+        height: 400px;
+        margin-left: 600px;
+        border-radius: 20px;
+    }
+    
+    .trabajaConNosotros h2{
+        background-color: black;
+        text-align: center;
+        color: white;
+        margin-top: 600px;
+        font-size: 30px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 20px;
+    }
+    
+    .trabajaConNosotros h3{
+        text-align: center;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        margin-left: 550px;
+        margin-right: 515px;
+        border-radius: 20px;
+    }
+    
+    .trabajaConNosotros input{
+        margin-left: 850px;
+        margin-top: 30px;
+        font-size: 30px;
+        background-color: black;
+        text-transform: uppercase;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        position: absolute;
+    }
+    
+    .trabajaConNosotros input.nya_trabajaConNosotros{
+        margin-left: 550px;
+        margin-top: 30px;
+        font-size: 30px;
+        background-color: black;
+    }
+    
+    .trabajaConNosotros input.prof_trabajaConNosotros{
+        margin-left: 1000px;
+        margin-top:12px;
+        font-size: 30px;
+        background-color: black;
+    }
+    
+    .trabajaConNosotros input.ciudad_trabajaConNosotros{
+        margin-left: 550px;
+        margin-top: 100px;
+        padding-right: 460px;
+        font-size: 30px;
+        background-color: black;
+    }
+    
+    .trabajaConNosotros input.mail_trabajaConNosotros{
+        margin-left: 550px;
+        margin-top: 200px;
+        padding-right: 460px;
+        font-size: 30px;
+        background-color: black;
+    }
+    
+    .trabajaConNosotros input.tel_trabajaConNosotros{
+        margin-left: 550px;
+        margin-top: 300px;
+        padding-right: 460px;
+        font-size: 30px;
+        background-color: black;
+    }
+    
+    .trabajaConNosotros input.button_trabajaConNosotros{
+        margin-left: 550px;
+        margin-top: 400px;
+        padding-right: 20px;
+        font-size: 30px;
+        background-color: black;
+    } 
+}
+/*Inica Responsive Quienes somos 1446px*/
 @media only screen and (min-width: 1446px)
 {
 
