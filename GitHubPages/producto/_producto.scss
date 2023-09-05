@@ -1,0 +1,492 @@
+/*Inicia Responsive Productos 375px*/
+@media only screen and (min-width: 375px)
+{
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    li{
+        background-color: black;
+        color: white;
+        margin: 30px;
+        display: grid ;   
+    }   
+}
+.producto h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.galeria {
+    margin-top: -30px;
+    margin-left: 6px;
+    width: 336px;
+    height: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8"
+    "img9 img10";
+}
+.ofertaCaoba h1{
+    margin-top: 760px;
+}
+.ofertaNogal h1{
+    margin-top: 760px;
+}
+.ofertaPino h1{
+    margin-top: 760px;
+}
+.ofertaArce h1{
+    margin-top: 760px;
+}
+.ofertaCedro h1{
+    margin-top: 760px;
+}
+.footer{
+    background-color: black;
+    padding-left: 18%;
+    margin-top: 760px;
+    h1{
+        background-color: black;   
+    }
+    i{
+        padding:0;
+        margin-top: 100px;
+        font-size: 41px;
+        display: inline-flex;
+        margin-right: 55px;
+    }
+}
+.redes i{
+    padding:0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
+}
+}
+
+/*Inicia Responsive Productos 480px*/
+@media only screen and (min-width: 480px)
+{
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;   
+    li{
+        background-color: black;
+        color: white;
+        margin: 30px;
+        display: grid ;   
+    }
+}
+.producto h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.galeria{
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 360px;
+    height: 300px; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);  
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8"
+    "img9 img10"; 
+}
+.ofertaCaoba h1{
+    margin-top: 760px;
+}
+.ofertaNogal h1{
+    margin-top: 760px;
+}
+.ofertaPino h1{
+    margin-top: 760px;
+}
+.ofertaArce h1{
+    margin-top: 760px;
+}
+.ofertaCedro h1{
+    margin-top: 760px;
+}
+.footer{
+    background-color: black;
+    padding-left: 18%;
+    margin-top: 760px;
+    h1{
+        background-color: black;   
+    }
+}
+.redes i{
+    padding:0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
+}
+}
+
+/*Inicia Responsive Producto 768px*/
+@media only screen and (min-width: 768px)
+{
+.galeria {
+    margin-top: -30px;
+    margin-left: 35px;
+    width: 670px;
+    height: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas:
+        "img1 img2 img2"
+        "img3 img3 img4"
+        "img5 img6 img6"
+        "img7 img7 img8"
+        "img9 img10 img10";
+}
+.footer{
+    background-color: black;
+    padding-left: 18%;
+    margin-top: 760px;
+    h1{
+        background-color: black;   
+    }
+}
+.redes i{
+    padding:0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
+}
+}
+/*Inicia Responsive Producto 1024px*/
+@media only screen and (min-width: 1024px)
+{
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;  
+    li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+        font-size: 20px;
+    } 
+}
+.galeria {
+    width: 905px;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);  
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img1 img1 img2 img4"
+    "img5 img6 img7 img8"
+    "img9 img9 img10 img10"; 
+}
+.ofertaCaoba h1{
+    margin-top: 550px;
+}
+.ofertaNogal h1{
+    margin-top: 550px;
+}
+.ofertaPino h1{
+    margin-top: 550px;
+}
+.ofertaArce h1{
+    margin-top: 550px;
+}
+.ofertaCedro h1{
+    margin-top: 550px;
+}
+.redes{
+    margin-top: -56px;
+    margin-left: -240px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 600px;
+    h1{
+        margin-left: -480px;
+    }
+    i{
+        margin: 0px;
+        padding: 50px;
+        padding-right: 20px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 40px;
+    }
+    
+}
+}
+
+
+/*Inicia Responsive Producto 1440px*/
+@media only screen and (min-width: 1440px)
+{
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }  
+}
+.logo h1{
+    color: white;
+    margin: 30px;
+    background-color: black;
+    margin-bottom: 0;
+    padding: 50px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+}
+.opciones a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.opciones {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }   
+}
+.galeria {
+    margin-top: -30px;
+    margin-left: 15px;
+    width: 1380px;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);  
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img1 img1 img2 img4"
+    "img5 img6 img7 img8"
+    "img9 img9 img10 img10"; 
+}
+.ofertaCaoba h1{
+    margin-top: 550px;
+}
+.ofertaNogal h1{
+    margin-top: 550px;
+}
+.ofertaPino h1{
+    margin-top: 550px;
+}
+.ofertaArce h1{
+    margin-top: 550px;
+}
+.ofertaCedro h1{
+    margin-top: 550px;
+}
+.redes{
+    margin-top: -56px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 600px;
+    h1{
+        margin-left: -290px;
+    }
+    
+}
+.redes{  
+    background-color: black;
+    i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 50px;
+    }
+}
+}
+
+/*Inicia Responsive Producto 1446px*/
+
+@media only screen and (min-width: 1446px)
+{
+.header h1{
+    color: white;
+    margin: 30px;
+    background-color: black;
+    margin-bottom: 0;
+    padding: 50px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+}
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }   
+}
+.producto h1{
+    text-align: center;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.galeria{
+    display: grid;
+    text-align: center;
+    margin-left: 100px;
+    width: 1700px;
+    height: 900px; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);  
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img1 img1 img2 img4"
+    "img5 img6 img7 img8"
+    "img9 img9 img10 img10";                    
+    grid-gap: 15px;
+    padding: 15px;   
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 5px;
+    h1{
+        background-color: black;
+        padding: 50px;
+        margin-left: -50px;
+        margin-top: 0px;
+        color: white;
+        position: absolute; 
+    }
+}
+.redes{
+    margin-top: -56px;
+    background-color: black;
+    i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+        font-size: 50px;
+    }
+}
+}

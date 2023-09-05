@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: 'Lora', serif;
+    font-family: 'Lumanosimo';  
+}
+/*Inicia el Inicio*/
+.header h1{     
+    color: white;
+    margin: 30px;
+    background-color: black;
+    margin-bottom: 0;
+    padding: 50px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    li{
+        background-color: black; 
+        display: inline;
+        text-decoration: none;
+    }
+    li a{
+        text-transform: none;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        }
+}
+.nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;  
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;   
+    li{
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        display: inline ;   
+    }
+}
+.frase{
+    text-align: center;
+    img{
+        margin-top: 30px;
+    }
+        h1{
+        padding: 50px;
+        font-size: 40px;
+        margin: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        background-color: black;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    h2{
+    padding: 50px;
+    font-size: 40px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    }   
+    
+}
+.galeria-inicio{
+    display: grid;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 1700px;
+    height: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 200px);  
+    grid-template-areas: 
+    "img1-i img2-i img3-i img4-i";                    
+    grid-gap:15px;
+    padding: 10px;
+    .item-inicio{
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        filter: grayscale(1);
+        transition: all 0.9s;
+        &:hover{
+        filter: grayscale(0);
+        transform: scale(1.02);  
+        }
+    }
+    .item1-inicio{
+        background-image: url(./GitHubPages/inicio/img/sillon\ 1.jpg);
+        grid-area: img1-i;
+        border-radius: 30px; 
+    }
+    .item2-inicio{
+        background-image: url(./GitHubPages/inicio/img/mesa\ 1.jpg);
+        grid-area: img2-i;
+        border-radius: 30px; 
+    }
+    .item3-inicio{
+        background-image: url(./GitHubPages/inicio/img/mesa\ 2.jpg);
+        grid-area: img3-i;
+        border-radius: 30px; 
+    }
+    .item4-inicio{
+        background-image: url(./GitHubPages/inicio/img/mueble\ 1.jpg);
+        grid-area: img4-i;
+        border-radius: 30px; 
+    }
+}
+.frase img:hover{
+    cursor: grab;
+    width: 400px;
+    height: 200px;
+    opacity: 1;
+}
+.productos_destacados{
+    text-align: center;
+    h1{
+        color: white;
+        margin: 30px;
+        background-color: black;  
+        text-align: center;  
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    img{
+        border: 10px solid black;
+        border-radius: 20px;
+        display: inline-block;
+        text-align: center;
+        width: 500px;
+        height: 400px;    
+        margin: 55px; 
+        margin-bottom: 15px; 
+    }
+    h3.arriba{
+            display: inline;
+            text-align: center;
+            font-size: 20px;
+            margin: 200px;
+            margin-left: 200px;
+            margin-right: 140px;
+            padding: 5px;
+            border-radius: 5px; 
+            background-color: black;
+            text-align: center;
+            color: white;
+    }
+    h3.abajo{
+        display: inline;
+        text-align: center;
+        font-size: 20px;
+        margin: 200px;
+        margin-left: 200px;
+        margin-right: 140px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px; 
+        background-color: black;
+        text-align: center;
+        color: white;
+    }       
+}
+.tiposDeMueble{
+    text-align: center;
+    margin: 20px;
+    h1{
+        color: white;
+        margin: 15px;
+        background-color: black;  
+        text-align: center;  
+        font-size: 40px;
+        border-radius: 20px;
+    }  
+    ul{
+        background-color: black;
+        margin: 15px;
+        border-radius: 20px;
+    }
+    ul li
+    {   
+    object-fit: cover;
+    background-size: 100% 100%;
+    height:100%;
+    opacity: .6;
+    border-radius: 10px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 150px;
+    padding: 80px;
+    display: inline-block ;
+    
+} 
+ul li.img-roble
+{
+    background-image: url(./GitHubPages/inicio/img/img-roble.jpg);
+}
+ul li.img-caoba
+{
+    background-image: url(./GitHubPages/inicio/img/img-caoba.jpg);
+}
+ul li.img-nogal
+{
+    background-image: url(./GitHubPages/inicio/img/img-nogal.jpg);
+}
+ul li.img-pino
+{
+    background-image: url(./GitHubPages/inicio/img/img-pino.jpg);
+}
+ul li.img-arce
+{
+    background-image: url(./GitHubPages/inicio/img/img-arce.jpg);
+}
+ul li.img-cedro
+{
+    background-image: url(./GitHubPages/inicio/img/cedro-img.jpg);
+}
+    ul li a{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: -6px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+}
+.primicias{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: black;
+    h1{
+        color: white;   
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: 40px;   
+        background-color: black;
+        border-top-right-radius: 20px;
+        border-top-left-radius:20px ;
+    }
+    h2 {
+        text-align: center;
+        margin-left: 90px;
+        color: white;
+        background-color: black;
+    }
+    input
+    {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: grey;
+    border: 5px solid black;
+    }
+    input.boton{
+    background-color: black;
+    color: grey;
+    &:hover{
+        cursor: pointer;
+    }
+    input.mail{
+    margin-left: 190px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    }
+    }
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 750px;
+    margin-top: 490px;
+    h1{
+        background-color: black;
+        padding: 50px;
+        color: white;
+        position: absolute; 
+    }
+}
+.redes{
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    i{
+        padding: 50px;
+        position:  relative; 
+        background-color: black;
+        color: white;  
+    }
+}
+
+/* Inicia Producto*/
+.producto h1{
+    text-align: center;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.galeria{
+    display: grid;
+    text-align: center;
+    margin-left: 100px;
+    width: 1700px;
+    height: 900px; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);  
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img1 img1 img2 img4"
+    "img5 img6 img7 img8"
+    "img9 img9 img10 img10";                    
+    grid-gap: 15px;
+    padding: 15px;   
+    :hover{ 
+        cursor: pointer;   
+    }
+}
+.item{
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    filter: grayscale(1);
+    transition: all 0.9s;
+    &:hover{
+        filter: grayscale(0);
+        transform: scale(1.02);  
+    }
+}
+.item1{
+    background-image: url(./GitHubPages/producto/img/estantes\ 1.jpg);
+    grid-area: img1;
+}
+.item2{
+    background-image: url(./GitHubPages/producto/img/mesa\ 1.jpg);
+    grid-area: img2;
+}
+.item3{
+    background-image: url(./GitHubPages/producto/img/mesa\ 2.jpg);
+    grid-area: img3;
+}
+.item4{
+    background-image: url(./GitHubPages/producto/img/mesa\ 3.jpg);  
+    grid-area: img4;
+}
+.item5{
+    background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);  
+    grid-area: img5;
+}
+.item6{
+    background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);  
+    grid-area: img6;
+}
+.item7{   
+    background-image: url(./GitHubPages/producto/img/sillon\ 1.jpg);  
+    grid-area: img7;
+}
+.item8{
+    background-image: url(./GitHubPages/producto/img/sillon\ 2.jpg);  
+    grid-area: img8;
+}
+.item9{   
+    background-image: url(./GitHubPages/producto/img/sillon\ 3.jpg);  
+    grid-area: img9;
+}
+.item10{
+    background-image: url(./GitHubPages/producto/img/sillon\ 4.jpg);  
+    grid-area: img10;
+}
+
+/* Inicia Profesionales*/
+.profesionales h1{
+    text-align: center;
+    font-size: 40px;
+    margin-right:30px;
+    margin-left:30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.profesionales img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    border: 10px solid black;
+    position: absolute;
+}
+.profesionales img.img1_profesionales{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 200px;   
+}
+.profesionales h2.text1_profesionales{
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 100px;
+    margin-left: 900px;
+    margin-right: 100px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.profesionales img.img2_profesionales{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 1000px;
+    width: 600px;
+    height: 400px;
+}
+.profesionales h2.text2_profesionales{
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.profesionales img.img3_profesionales{
+    text-align: center;
+    margin-top: 150px;
+    width: 800px;
+    height: 400px;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+.trabajaConNosotros h2{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 600px;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+}
+.trabajaConNosotros h3{
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-left: 550px;
+    margin-right: 515px;
+    border-radius: 20px;
+}
+.trabajaConNosotros input{
+    margin-left: 850px;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+}
+.trabajaConNosotros input.nya_trabajaConNosotros{
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: black;
+}
+.trabajaConNosotros input.prof_trabajaConNosotros{
+    margin-left: 1000px;
+    margin-top:12px;
+    font-size: 30px;
+    background-color: black;
+}
+.trabajaConNosotros input.ciudad_trabajaConNosotros{
+    margin-left: 550px;
+    margin-top: 100px;
+    padding-right: 460px;
+    font-size: 30px;
+    background-color: black;
+}
+.trabajaConNosotros input.mail_trabajaConNosotros{
+    margin-left: 550px;
+    margin-top: 200px;
+    padding-right: 460px;
+    font-size: 30px;
+    background-color: black;
+}
+.trabajaConNosotros input.tel_trabajaConNosotros{
+    margin-left: 550px;
+    margin-top: 300px;
+    padding-right: 460px;
+    font-size: 30px;
+    background-color: black;
+}
+
+.trabajaConNosotros input.button_trabajaConNosotros{
+    margin-left: 550px;
+    margin-top: 400px;
+    padding-right: 20px;
+    font-size: 30px;
+    background-color: black;
+} 
+
+/* Inicia Quienes Somos*/
+.nosotros h1{
+    background-color: black;
+    color: white;
+    display: inline;
+}
+.nosotros h1.nosotros_H1{
+    text-align: left;
+    margin-left: 300px;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 1000px;
+    padding: 10px;
+    padding-right: 415px;
+    border-radius: 20px;
+}
+.nosotros img.img1_nosotros{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 700px;
+    width: 600px;
+    border-radius: 20px;
+    transition: none;
+    transform-origin: none;
+}
+
+.nosotros h1.woodplace{
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-top: -700px;
+    margin-left: 950px;
+    margin-right: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.nosotros h2.text1_nosotros{
+    color: white;
+    background-color: black;
+    display: flex;
+    margin-left: 950px;
+    margin-top: 60px;
+    margin-right: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 31px;
+}
+.nosotros h1.nuestrosProductos{
+    color: white;
+    margin-top: -1000px;
+    margin-left: 300px;   
+    padding: 20px;
+    border-radius: 20px;
+}
+.nosotros h1.nuestrosProductos{
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 950px;
+    border-radius: 20px;
+    padding-right: -500px;
+}
+.nosotros h2.text2_productos{
+    color: white;
+    background-color: black;
+    display: flex;
+    margin-left: 300px;  
+    margin-top: 60px;
+    margin-right: 950px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 31px;
+}
+.nosotros img.img2{
+    margin-left: 996px;
+    margin-top: -520px;
+    margin-bottom:70px;
+    height: 700px;
+    width: 560px;
+    border-radius: 20px;
+}
+
+/*Inicia Contacto*/
+.contacto h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.contacto input{
+    padding: 20px;
+    text-align: left;
+    margin: 30px;
+    padding-right: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.contacto input.button.button_contacto{
+    text-align: center;
+    margin: 30px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+.contacto iframe {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 100px;
+    width: 315px;
+    height: 304px;
+}
+.contacto h2.contacto{
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 20%;
+    padding-left: 5px;
+    margin-right: 27px;
+    margin-top: -570px;
+    margin-left: 68%;
+    margin-bottom: 520px;
+    
+}
+.contacto h2.ubicacion{
+    text-align: left ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 0%;
+    padding-left: 5px;
+    padding-right: 5%;
+    margin-top: -480px;
+    margin-left: 68%;
+    margin-bottom: 520px;
+}
+.contacto h2.mail{
+    text-align: left ;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 0%;
+    padding-left: 5px;
+    margin-right: 27px;
+    margin-top: -480px;
+    margin-left: 68%;
+    margin-bottom: 520px;
+}
+.contacto h2.num{
+    text-align: left ;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-right: 0%;
+    padding-left: 5px;
+    margin-right: 27px;
+    margin-top: -480px;
+    margin-left: 68%;
+    margin-bottom: 500px;
+}
+
+@import "GitHubPages/inicio/inicio","GitHubPages/producto/producto","GitHubPages/profesionales/profesionales","GitHubPages/quienes_somos/quienes_somos", "GitHubPages/contacto/contacto"
