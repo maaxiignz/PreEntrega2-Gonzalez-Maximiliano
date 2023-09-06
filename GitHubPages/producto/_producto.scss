@@ -2,23 +2,17 @@
 @media only screen and (min-width: 375px)
 {
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
-    
 }
 ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     li{
-        background-color: black;
-        color: white;
         margin: 30px;
         display: grid ;   
     }   
@@ -57,12 +51,8 @@ ul.nav {
     margin-top: 760px;
 }
 .footer{
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-    h1{
-        background-color: black;   
-    }
     i{
         padding:0;
         margin-top: 100px;
@@ -83,24 +73,15 @@ ul.nav {
 /*Inicia Responsive Productos 480px*/
 @media only screen and (min-width: 480px)
 {
-.nav a{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    
-}
 ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;   
     li{
-        background-color: black;
-        color: white;
         margin: 30px;
         display: grid ;   
     }
@@ -139,12 +120,8 @@ ul.nav {
     margin-top: 760px;
 }
 .footer{
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-    h1{
-        background-color: black;   
-    }
 }
 .redes i{
     padding:0;
@@ -173,12 +150,8 @@ ul.nav {
         "img9 img10 img10";
 }
 .footer{
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-    h1{
-        background-color: black;   
-    }
 }
 .redes i{
     padding:0;
@@ -192,8 +165,6 @@ ul.nav {
 @media only screen and (min-width: 1024px)
 {
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     font-size: 18px;
     
@@ -202,14 +173,11 @@ ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;  
     li{
-        background-color: black;
-        color: white;
         margin-left: 40px;
         display: inline ;   
         font-size: 20px;
@@ -246,8 +214,6 @@ ul.nav {
     margin-left: -240px;
 }
 .footer{
-    background-color: black;
-    text-align: center;
     padding-left: 800px;
     margin-top: 600px;
     h1{
@@ -258,21 +224,15 @@ ul.nav {
         padding: 50px;
         padding-right: 20px;
         position:  relative; 
-        background-color: black;
-        color: white;  
         font-size: 40px;
     }
-    
 }
 }
-
 
 /*Inicia Responsive Producto 1440px*/
 @media only screen and (min-width: 1440px)
 {
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     
 }
@@ -280,42 +240,32 @@ ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px; 
     li{
-        background-color: black;
-        color: white;
         margin-left: 40px;
         display: inline ;   
     }  
 }
 .logo h1{
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     li{
-        background-color: black; 
         display: inline;
         text-decoration: none;
     }
     li a{
         text-transform: none;
-        background-color: black;
         text-decoration: none;
-        color: white;
     }
 }
 .opciones a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     
 }
@@ -323,14 +273,11 @@ ul.opciones {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px; 
     li{
-        background-color: black;
-        color: white;
         margin-left: 40px;
         display: inline ;   
     }   
@@ -367,7 +314,6 @@ ul.opciones {
     margin-top: -56px;
 }
 .footer{
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
@@ -377,13 +323,10 @@ ul.opciones {
     
 }
 .redes{  
-    background-color: black;
     i{
         margin: 0px;
         padding: 50px;
         position:  relative; 
-        background-color: black;
-        color: white;  
         font-size: 50px;
     }
 }
@@ -394,29 +337,22 @@ ul.opciones {
 @media only screen and (min-width: 1446px)
 {
 .header h1{
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     li{
-        background-color: black; 
         display: inline;
         text-decoration: none;
     }
     li a{
         text-transform: none;
-        background-color: black;
         text-decoration: none;
-        color: white;
     }
 }
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     
 }
@@ -424,14 +360,11 @@ ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     li{
-        background-color: black;
-        color: white;
         margin-left: 40px;
         display: inline ;   
     }   
@@ -439,8 +372,6 @@ ul.nav {
 .producto h1{
     text-align: center;
     margin: 30px;
-    background-color: black;
-    color: white;
     border-radius: 20px;
     padding: 15px;
     margin-left: 400px;
@@ -464,28 +395,22 @@ ul.nav {
     padding: 15px;   
 }
 .footer{
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 5px;
     h1{
-        background-color: black;
         padding: 50px;
         margin-left: -50px;
         margin-top: 0px;
-        color: white;
         position: absolute; 
     }
 }
 .redes{
     margin-top: -56px;
-    background-color: black;
     i{
         margin: 0px;
         padding: 50px;
         position:  relative; 
-        background-color: black;
-        color: white;  
         font-size: 50px;
     }
 }

@@ -81,6 +81,7 @@ ul.nav li {
   border-bottom-left-radius: 20px;
 }
 
+/* .galeria-inicio sirve para acomodar las cuatro(4) imagenes primeras con un sistema de grid, ademas de que le da un filtro gris y con el hover le devuelvo el color a las img y les aumenta minimamente la escala*/
 .galeria-inicio {
   display: grid;
   text-align: center;
@@ -332,6 +333,7 @@ ul.nav li {
   margin-right: 400px;
 }
 
+/*.galeria modifica el posicionamiento de las img que estan debajo los tipos de madera*/
 .galeria {
   display: grid;
   text-align: center;
@@ -348,7 +350,12 @@ ul.nav li {
   cursor: pointer;
 }
 
+/*.item le da un filtro de gris a las imagenes mas un hover que le incrementa la escala y le devuelve el color a las img*/
 .item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: 100% 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
@@ -360,53 +367,309 @@ ul.nav li {
   transform: scale(1.02);
 }
 
-.item1 {
-  background-image: url(./GitHubPages/producto/img/estantes\ 1.jpg);
+/*Empieza los img de la parte de roble*/
+.item1-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble1.jpg);
   grid-area: img1;
 }
 
-.item2 {
-  background-image: url(./GitHubPages/producto/img/mesa\ 1.jpg);
+.item2-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble2.jpg);
   grid-area: img2;
 }
 
-.item3 {
-  background-image: url(./GitHubPages/producto/img/mesa\ 2.jpg);
+.item3-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble3.jpg);
   grid-area: img3;
 }
 
-.item4 {
-  background-image: url(./GitHubPages/producto/img/mesa\ 3.jpg);
+.item4-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble4.jpg);
   grid-area: img4;
 }
 
-.item5 {
-  background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);
+.item5-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble5.jpg);
   grid-area: img5;
 }
 
-.item6 {
-  background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);
+.item6-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble6.jpg);
   grid-area: img6;
 }
 
-.item7 {
-  background-image: url(./GitHubPages/producto/img/sillon\ 1.jpg);
+.item7-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble7.png);
   grid-area: img7;
 }
 
-.item8 {
-  background-image: url(./GitHubPages/producto/img/sillon\ 2.jpg);
+.item8-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble8.jpg);
   grid-area: img8;
 }
 
-.item9 {
-  background-image: url(./GitHubPages/producto/img/sillon\ 3.jpg);
+.item9-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble9.jpg);
   grid-area: img9;
 }
 
-.item10 {
-  background-image: url(./GitHubPages/producto/img/sillon\ 4.jpg);
+.item10-r {
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble10.jpg);
+  grid-area: img10;
+}
+
+/*Empieza los img de la parte de caoba*/
+.item1-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba1.jpg);
+  grid-area: img1;
+}
+
+.item2-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba2.jpg);
+  grid-area: img2;
+}
+
+.item3-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba3.jpg);
+  grid-area: img3;
+}
+
+.item4-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba4.jpg);
+  grid-area: img4;
+}
+
+.item5-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba5.jpg);
+  grid-area: img5;
+}
+
+.item6-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba6.jpg);
+  grid-area: img6;
+}
+
+.item7-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba7.jpg);
+  grid-area: img7;
+}
+
+.item8-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba8.jpg);
+  grid-area: img8;
+}
+
+.item9-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba9.jpg);
+  grid-area: img9;
+}
+
+.item10-ca {
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba10.jpg);
+  grid-area: img10;
+}
+
+/*Empieza los img de la parte de nogal*/
+.item1-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal1.jpg);
+  grid-area: img1;
+}
+
+.item2-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal2.jpeg);
+  grid-area: img2;
+}
+
+.item3-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal3.jpg);
+  grid-area: img3;
+}
+
+.item4-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal4.jpg);
+  grid-area: img4;
+}
+
+.item5-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal5.jpg);
+  grid-area: img5;
+}
+
+.item6-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal6.jpg);
+  grid-area: img6;
+}
+
+.item7-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal7.jpg);
+  grid-area: img7;
+}
+
+.item8-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal8.jpg);
+  grid-area: img8;
+}
+
+.item9-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal9.jpg);
+  grid-area: img9;
+}
+
+.item10-n {
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal10.jpg);
+  grid-area: img10;
+}
+
+/*Empieza los img de la parte de pino*/
+.item1-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino1.jpg);
+  grid-area: img1;
+}
+
+.item2-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino2.jpg);
+  grid-area: img2;
+}
+
+.item3-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino3.jpg);
+  grid-area: img3;
+}
+
+.item4-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino4.jpg);
+  grid-area: img4;
+}
+
+.item5-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino5.jpg);
+  grid-area: img5;
+}
+
+.item6-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino6.jpg);
+  grid-area: img6;
+}
+
+.item7-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino7.jpg);
+  grid-area: img7;
+}
+
+.item8-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino8.jpg);
+  grid-area: img8;
+}
+
+.item9-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino9.jpg);
+  grid-area: img9;
+}
+
+.item10-p {
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino10.jpg);
+  grid-area: img10;
+}
+
+/*Empieza los img de la parte de arce*/
+.item1-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce1.jpg);
+  grid-area: img1;
+}
+
+.item2-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce2.jpg);
+  grid-area: img2;
+}
+
+.item3-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce3.jpg);
+  grid-area: img3;
+}
+
+.item4-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce4.jpg);
+  grid-area: img4;
+}
+
+.item5-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce5.jpg);
+  grid-area: img5;
+}
+
+.item6-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce6.jpg);
+  grid-area: img6;
+}
+
+.item7-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce7.jpg);
+  grid-area: img7;
+}
+
+.item8-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce8.jpg);
+  grid-area: img8;
+}
+
+.item9-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce9.jpg);
+  grid-area: img9;
+}
+
+.item10-a {
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce10.jpg);
+  grid-area: img10;
+}
+
+/*Empieza los img de la parte de cedro*/
+.item1-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro1.jpg);
+  grid-area: img1;
+}
+
+.item2-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro2.jpg);
+  grid-area: img2;
+}
+
+.item3-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro3.jpg);
+  grid-area: img3;
+}
+
+.item4-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro4.jpg);
+  grid-area: img4;
+}
+
+.item5-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro5.jpeg);
+  grid-area: img5;
+}
+
+.item6-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro6.jpeg);
+  grid-area: img6;
+}
+
+.item7-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro7.jpg);
+  grid-area: img7;
+}
+
+.item8-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro8.jpg);
+  grid-area: img8;
+}
+
+.item9-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro9.jpg);
+  grid-area: img9;
+}
+
+.item10-ce {
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro10.jpg);
   grid-area: img10;
 }
 
@@ -429,6 +692,7 @@ ul.nav li {
   position: absolute;
 }
 
+/* .profesionales img.img1_profesionales sirve para modificar la primer img que se encuentra*/
 .profesionales img.img1_profesionales {
   text-align: center;
   margin-top: 30px;
@@ -446,6 +710,7 @@ ul.nav li {
   padding: 50px;
 }
 
+/* .profesionales img.img2_profesionales sirve para modificar la segunda img que se encuentra*/
 .profesionales img.img2_profesionales {
   text-align: center;
   margin-top: 200px;
@@ -465,6 +730,7 @@ ul.nav li {
   padding: 50px;
 }
 
+/* .profesionales img.img3_profesionales sirve para modificar la tercera img que se encuentra*/
 .profesionales img.img3_profesionales {
   text-align: center;
   margin-top: 150px;
@@ -508,6 +774,7 @@ ul.nav li {
   position: absolute;
 }
 
+/* Desde la linea 712 hasta la 754 esta el control de los cinco(5) campos de relleno y un(1) boton, cada uno diferenciado por clase*/
 .trabajaConNosotros input.nya_trabajaConNosotros {
   margin-left: 550px;
   margin-top: 30px;
@@ -573,6 +840,7 @@ ul.nav li {
   border-radius: 20px;
 }
 
+/* .nosotros img.img1_nosotros sirve para modificar la primer img que se encuentra*/
 .nosotros img.img1_nosotros {
   margin-left: 300px;
   margin-top: 20px;
@@ -640,6 +908,7 @@ ul.nav li {
   font-size: 31px;
 }
 
+/* .nosotros img.img2 sirve para modificar la segunda img que se encuentra*/
 .nosotros img.img2 {
   margin-left: 996px;
   margin-top: -520px;
@@ -684,6 +953,7 @@ ul.nav li {
   border-radius: 5px;
 }
 
+/* .contacto iframe sirve para modificar la implementacion del google maps*/
 .contacto iframe {
   display: inline;
   margin-left: 30px;
@@ -751,6 +1021,7 @@ ul.nav li {
   margin-bottom: 500px;
 }
 
+/* @import sirve para aplicar el resto de archivos .scss para unirlos todos dentro de un solo archivo .css, estan en orden como aparecen en la pagina.*/
 /* Inicia Responsive Inicio 375px */
 @media only screen and (min-width: 375px) {
   .frase h2 {
@@ -804,8 +1075,7 @@ ul.nav li {
     position: absolute;
     margin-top: 730px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -110px;
+    margin-left: -85px;
     margin-right: 30px;
   }
   .productos_destacados img.arriba-img2 {
@@ -817,7 +1087,6 @@ ul.nav li {
     position: absolute;
     margin-top: 1010px;
     font-size: 20px;
-    padding-right: 0px;
     margin-left: -110px;
     margin-right: 30px;
   }
@@ -830,8 +1099,7 @@ ul.nav li {
     position: absolute;
     margin-top: 1285px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -110px;
+    margin-left: -85px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img1 {
@@ -843,8 +1111,7 @@ ul.nav li {
     position: absolute;
     margin-top: 1560px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -110px;
+    margin-left: -125px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img2 {
@@ -856,8 +1123,7 @@ ul.nav li {
     position: absolute;
     margin-top: 1835px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -110px;
+    margin-left: -125px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img3 {
@@ -867,10 +1133,9 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-3 {
     position: absolute;
-    margin-top: 2117px;
+    margin-top: 2110px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -110px;
+    margin-left: -105px;
     margin-right: -349px;
   }
   .tiposDeMueble h1 {
@@ -1022,7 +1287,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-1 {
     margin-top: 520px;
-    margin-left: -265px;
+    margin-left: -235px;
   }
   .productos_destacados img.arriba-img2 {
     margin-top: 285px;
@@ -1038,7 +1303,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-3 {
     margin-top: 800px;
-    margin-left: -265px;
+    margin-left: -235px;
   }
   .productos_destacados img.abajo-img1 {
     margin-top: 565px;
@@ -1054,7 +1319,7 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-2 {
     margin-top: 1085px;
-    margin-left: -265px;
+    margin-left: -285px;
   }
   .productos_destacados img.abajo-img3 {
     margin-top: 850px;
@@ -1062,7 +1327,7 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-3 {
     margin-top: 1085px;
-    margin-left: 70px;
+    margin-left: 80px;
   }
   .tiposDeMueble h1 {
     margin-top: 1140px;
@@ -1098,8 +1363,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-1 {
     margin-top: 515px;
-    padding-right: 0px;
-    margin-left: -350px;
+    margin-left: -320px;
     margin-right: 30px;
   }
   .productos_destacados img.arriba-img2 {
@@ -1108,7 +1372,6 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-2 {
     margin-top: 515px;
-    padding-right: 0px;
     margin-left: 135px;
     margin-right: 30px;
   }
@@ -1118,8 +1381,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-3 {
     margin-top: 800px;
-    padding-right: 0px;
-    margin-left: -350px;
+    margin-left: -320px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img1 {
@@ -1128,8 +1390,7 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-1 {
     margin-top: 1080px;
-    padding-right: 0px;
-    margin-left: 135px;
+    margin-left: 120px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img2 {
@@ -1139,8 +1400,7 @@ ul.nav li {
   .productos_destacados h3.abajo-2 {
     margin-top: 1080px;
     font-size: 20px;
-    padding-right: 0px;
-    margin-left: -350px;
+    margin-left: -370px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img3 {
@@ -1149,13 +1409,11 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-3 {
     margin-top: 800px;
-    padding-right: 0px;
     margin-left: -110px;
     margin-right: -349px;
   }
   .productos_destacados h3.abajo-3 {
     margin-top: 800px;
-    padding-right: 0px;
     margin-left: 135px;
     margin-right: -349px;
   }
@@ -1168,8 +1426,6 @@ ul.nav li {
   .primicias input.mail {
     margin-left: 5px;
     font-size: 35px;
-    background-color: white;
-    color: black;
     text-transform: uppercase;
   }
 }
@@ -1236,7 +1492,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-1 {
     margin-top: 330px;
-    margin-left: -610px;
+    margin-left: -580px;
   }
   .productos_destacados img.arriba-img2 {
     margin-top: 100px;
@@ -1244,7 +1500,7 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-2 {
     margin-top: 330px;
-    margin-left: -125px;
+    margin-left: -135px;
   }
   .productos_destacados img.arriba-img3 {
     margin-top: 100px;
@@ -1252,16 +1508,15 @@ ul.nav li {
   }
   .productos_destacados h3.arriba-3 {
     margin-top: 330px;
-    margin-left: 355px;
+    margin-left: 380px;
   }
   .productos_destacados img.abajo-img1 {
     margin-top: 380px;
     margin-left: -650px;
   }
   .productos_destacados h3.abajo-1 {
-    padding-right: 0px;
     margin-top: 610px;
-    margin-left: -610px;
+    margin-left: -620px;
   }
   .productos_destacados img.abajo-img2 {
     margin-top: 380px;
@@ -1269,9 +1524,7 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-2 {
     margin-top: 610px;
-    font-size: 20px;
-    padding-right: 0px;
-    margin-left: -125px;
+    margin-left: -145px;
     margin-right: 30px;
   }
   .productos_destacados img.abajo-img3 {
@@ -1280,8 +1533,7 @@ ul.nav li {
   }
   .productos_destacados h3.abajo-3 {
     margin-top: 610px;
-    padding-right: 0px;
-    margin-left: 350px;
+    margin-left: 360px;
     margin-right: -349px;
   }
   .tiposDeMueble h1 {
@@ -1345,23 +1597,18 @@ ul.nav li {
 /*Inicia Responsive Productos 375px*/
 @media only screen and (min-width: 375px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin: 30px;
     display: grid;
   }
@@ -1394,12 +1641,8 @@ ul.nav li {
     margin-top: 760px;
   }
   .footer {
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-  }
-  .footer h1 {
-    background-color: black;
   }
   .footer i {
     padding: 0;
@@ -1418,24 +1661,16 @@ ul.nav li {
 }
 /*Inicia Responsive Productos 480px*/
 @media only screen and (min-width: 480px) {
-  .nav a {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-  }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin: 30px;
     display: grid;
   }
@@ -1468,12 +1703,8 @@ ul.nav li {
     margin-top: 760px;
   }
   .footer {
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-  }
-  .footer h1 {
-    background-color: black;
   }
   .redes i {
     padding: 0;
@@ -1495,12 +1726,8 @@ ul.nav li {
     grid-template-areas: "img1 img2 img2" "img3 img3 img4" "img5 img6 img6" "img7 img7 img8" "img9 img10 img10";
   }
   .footer {
-    background-color: black;
     padding-left: 18%;
     margin-top: 760px;
-  }
-  .footer h1 {
-    background-color: black;
   }
   .redes i {
     padding: 0;
@@ -1513,8 +1740,6 @@ ul.nav li {
 /*Inicia Responsive Producto 1024px*/
 @media only screen and (min-width: 1024px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
     font-size: 18px;
   }
@@ -1522,15 +1747,12 @@ ul.nav li {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin-left: 40px;
     display: inline;
     font-size: 20px;
@@ -1562,8 +1784,6 @@ ul.nav li {
     margin-left: -240px;
   }
   .footer {
-    background-color: black;
-    text-align: center;
     padding-left: 800px;
     margin-top: 600px;
   }
@@ -1575,38 +1795,29 @@ ul.nav li {
     padding: 50px;
     padding-right: 20px;
     position: relative;
-    background-color: black;
-    color: white;
     font-size: 40px;
   }
 }
 /*Inicia Responsive Producto 1440px*/
 @media only screen and (min-width: 1440px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin-left: 40px;
     display: inline;
   }
   .logo h1 {
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
@@ -1614,34 +1825,26 @@ ul.nav li {
     border-top-left-radius: 20px;
   }
   .logo h1 li {
-    background-color: black;
     display: inline;
     text-decoration: none;
   }
   .logo h1 li a {
     text-transform: none;
-    background-color: black;
     text-decoration: none;
-    color: white;
   }
   .opciones a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.opciones {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.opciones li {
-    background-color: black;
-    color: white;
     margin-left: 40px;
     display: inline;
   }
@@ -1673,7 +1876,6 @@ ul.nav li {
     margin-top: -56px;
   }
   .footer {
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
@@ -1681,24 +1883,17 @@ ul.nav li {
   .footer h1 {
     margin-left: -290px;
   }
-  .redes {
-    background-color: black;
-  }
   .redes i {
     margin: 0px;
     padding: 50px;
     position: relative;
-    background-color: black;
-    color: white;
     font-size: 50px;
   }
 }
 /*Inicia Responsive Producto 1446px*/
 @media only screen and (min-width: 1446px) {
   .header h1 {
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
@@ -1706,42 +1901,32 @@ ul.nav li {
     border-top-left-radius: 20px;
   }
   .header h1 li {
-    background-color: black;
     display: inline;
     text-decoration: none;
   }
   .header h1 li a {
     text-transform: none;
-    background-color: black;
     text-decoration: none;
-    color: white;
   }
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin-left: 40px;
     display: inline;
   }
   .producto h1 {
     text-align: center;
     margin: 30px;
-    background-color: black;
-    color: white;
     border-radius: 20px;
     padding: 15px;
     margin-left: 400px;
@@ -1760,29 +1945,23 @@ ul.nav li {
     padding: 15px;
   }
   .footer {
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 5px;
   }
   .footer h1 {
-    background-color: black;
     padding: 50px;
     margin-left: -50px;
     margin-top: 0px;
-    color: white;
     position: absolute;
   }
   .redes {
     margin-top: -56px;
-    background-color: black;
   }
   .redes i {
     margin: 0px;
     padding: 50px;
     position: relative;
-    background-color: black;
-    color: white;
     font-size: 50px;
   }
 }
@@ -1853,20 +2032,17 @@ ul.nav li {
     margin-left: 31px;
     margin-top: 30px;
     font-size: 24px;
-    background-color: black;
   }
   .trabajaConNosotros input.prof_trabajaConNosotros {
     margin-left: 30px;
     margin-top: 80px;
     font-size: 24px;
-    background-color: black;
   }
   .trabajaConNosotros input.ciudad_trabajaConNosotros {
     margin-left: 31px;
     margin-top: 130px;
     padding-right: 10px;
     font-size: 24px;
-    background-color: black;
   }
   .trabajaConNosotros input.mail_trabajaConNosotros {
     margin-left: 30px;
@@ -1885,7 +2061,6 @@ ul.nav li {
     margin-top: 280px;
     padding-right: 10px;
     font-size: 25px;
-    background-color: black;
   }
 }
 /*Inicia Responsive Profesionales 480px*/
@@ -2129,8 +2304,6 @@ ul.nav li {
     text-align: center;
     font-size: 40px;
     border-radius: 20px;
-    background-color: black;
-    color: white;
   }
   .profesionales img {
     width: 600px;
@@ -2145,7 +2318,6 @@ ul.nav li {
     margin-left: 200px;
   }
   .profesionales h2.text1_profesionales {
-    background-color: black;
     text-transform: uppercase;
     color: white;
     margin-top: 100px;
@@ -2162,7 +2334,6 @@ ul.nav li {
     height: 400px;
   }
   .profesionales h2.text2_profesionales {
-    background-color: black;
     text-transform: uppercase;
     color: white;
     margin-top: 200px;
@@ -2180,9 +2351,7 @@ ul.nav li {
     border-radius: 20px;
   }
   .trabajaConNosotros h2 {
-    background-color: black;
     text-align: center;
-    color: white;
     margin-top: 600px;
     font-size: 40px;
     padding: 20px;
@@ -2192,8 +2361,6 @@ ul.nav li {
   }
   .trabajaConNosotros h3 {
     margin-top: 20px;
-    background-color: black;
-    color: white;
     font-size: 30px;
     padding: 30px;
     margin-left: 300px;
@@ -2204,10 +2371,8 @@ ul.nav li {
     margin-left: 850px;
     margin-top: 10px;
     font-size: 30px;
-    background-color: black;
     text-transform: uppercase;
     padding: 10px;
-    color: white;
     border-radius: 10px;
     position: absolute;
   }
@@ -2215,44 +2380,36 @@ ul.nav li {
     margin-left: 300px;
     font-size: 30px;
     padding-right: 240px;
-    background-color: black;
   }
   .trabajaConNosotros input.prof_trabajaConNosotros {
     margin-left: 950px;
     font-size: 30px;
     padding-right: 295px;
-    background-color: black;
   }
   .trabajaConNosotros input.ciudad_trabajaConNosotros {
     margin-left: 300px;
     padding-right: 945px;
     font-size: 30px;
-    background-color: black;
   }
   .trabajaConNosotros input.mail_trabajaConNosotros {
     margin-left: 300px;
     padding-right: 945px;
     font-size: 30px;
-    background-color: black;
   }
   .trabajaConNosotros input.tel_trabajaConNosotros {
     margin-left: 300px;
     padding-right: 945px;
     font-size: 30px;
-    background-color: black;
   }
   .trabajaConNosotros input.button_trabajaConNosotros {
     margin-left: 300px;
     padding-right: 20px;
     font-size: 40px;
-    background-color: black;
   }
 }
 /*Inicia Responsive Quienes Somos 375px*/
 @media only screen and (min-width: 375px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
@@ -2266,8 +2423,6 @@ ul.nav li {
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin: 30px;
     display: grid;
   }
@@ -2278,8 +2433,6 @@ ul.nav li {
     text-align: left;
     margin: 30px;
     margin-right: -70px;
-    background-color: black;
-    color: white;
     padding-right: 59px;
   }
   .nosotros img.img1_nosotros {
@@ -2291,22 +2444,16 @@ ul.nav li {
     border-radius: 20px;
   }
   .nosotros h1 {
-    background-color: black;
-    color: white;
     display: grid;
   }
   .nosotros h1.woodplace {
-    background-color: black;
     text-align: left;
     margin-top: -10px;
     margin-left: 30px;
     margin-right: -70px;
-    color: white;
     display: grid;
   }
   .nosotros h2.text1_nosotros {
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 295px;
     margin-top: 10px;
@@ -2316,9 +2463,7 @@ ul.nav li {
     text-transform: uppercase;
   }
   .nosotros h1.nuestrosProductos {
-    background-color: black;
     text-align: left;
-    color: white;
     display: grid;
     margin-top: 20px;
     margin-left: 30px;
@@ -2326,15 +2471,12 @@ ul.nav li {
     margin-right: -70px;
   }
   .nosotros h2.text2_productos {
-    background-color: black;
     display: flex;
     margin-left: 30px;
     margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     font-size: 30px;
-    color: white;
-    background-color: black;
     display: grid;
     margin-top: 10px;
     padding-right: 295px;
@@ -2348,11 +2490,7 @@ ul.nav li {
     width: 320px;
   }
   .footer {
-    background-color: black;
     padding-left: 10%;
-  }
-  .footer h1 {
-    background-color: black;
   }
   .redes i {
     padding: 0;
@@ -2365,8 +2503,6 @@ ul.nav li {
 /*Inicia Responsive Quienes Somos 480px*/
 @media only screen and (min-width: 480px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
@@ -2380,8 +2516,6 @@ ul.nav li {
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin: 30px;
     display: grid;
   }
@@ -2391,8 +2525,7 @@ ul.nav li {
   .nosotros h1.nosotros_H1 {
     text-align: left;
     margin: 30px;
-    background-color: black;
-    color: white;
+    margin-right: -77px;
   }
   .nosotros img.img1_nosotros {
     margin-left: 30px;
@@ -2403,22 +2536,16 @@ ul.nav li {
     border-radius: 20px;
   }
   .nosotros h1 {
-    background-color: black;
-    color: white;
     display: grid;
   }
   .nosotros h1.woodplace {
-    background-color: black;
     text-align: left;
     margin-top: -10px;
     margin-left: 30px;
     margin-right: -77px;
-    color: white;
     display: grid;
   }
   .nosotros h2.text1_nosotros {
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 400px;
     margin-top: 10px;
@@ -2428,9 +2555,7 @@ ul.nav li {
     text-transform: uppercase;
   }
   .nosotros h1.nuestrosProductos {
-    background-color: black;
     text-align: left;
-    color: white;
     display: grid;
     margin-top: 20px;
     margin-left: 30px;
@@ -2438,15 +2563,12 @@ ul.nav li {
     margin-right: -77px;
   }
   .nosotros h2.text2_productos {
-    background-color: black;
     display: flex;
     margin-left: 30px;
     margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     font-size: 40px;
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 400px;
     margin-top: 10px;
@@ -2461,11 +2583,7 @@ ul.nav li {
     width: 425px;
   }
   .footer {
-    background-color: black;
     padding-left: 18%;
-  }
-  .footer h1 {
-    background-color: black;
   }
   .redes i {
     padding: 0;
@@ -2478,15 +2596,12 @@ ul.nav li {
 /*Inicia Responsive Quienes Somos 768px*/
 @media only screen and (min-width: 768px) {
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
@@ -2586,17 +2701,13 @@ ul.nav li {
     padding: 50px;
     padding-right: 20px;
     position: relative;
-    background-color: black;
-    color: white;
     font-size: 40px;
   }
 }
 /*Inicia Responsive Quienes somos 1440px*/
 @media only screen and (min-width: 1440px) {
   .header h1 {
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
@@ -2604,33 +2715,27 @@ ul.nav li {
     border-top-left-radius: 20px;
   }
   .header h1 li {
-    background-color: black;
     display: inline;
     text-decoration: none;
   }
   .header h1 li a {
     text-transform: none;
-    background-color: black;
     text-decoration: none;
     color: white;
   }
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
     color: white;
     margin-left: 40px;
     display: inline;
@@ -2642,8 +2747,6 @@ ul.nav li {
     text-align: left;
     margin: 30px;
     margin-right: -70px;
-    background-color: black;
-    color: white;
   }
   .nosotros img.img1_nosotros {
     margin-left: 30px;
@@ -2654,22 +2757,16 @@ ul.nav li {
     border-radius: 20px;
   }
   .nosotros h1 {
-    background-color: black;
-    color: white;
     display: grid;
   }
   .nosotros h1.woodplace {
-    background-color: black;
     text-align: left;
     margin-top: -10px;
     margin-left: 30px;
     margin-right: -77px;
-    color: white;
     display: grid;
   }
   .nosotros h2.text1_nosotros {
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 400px;
     margin-top: 10px;
@@ -2679,9 +2776,7 @@ ul.nav li {
     text-transform: uppercase;
   }
   .nosotros h1.nuestrosProductos {
-    background-color: black;
     text-align: left;
-    color: white;
     display: grid;
     margin-top: 20px;
     margin-left: 30px;
@@ -2689,15 +2784,12 @@ ul.nav li {
     margin-right: -75px;
   }
   .nosotros h2.text2_productos {
-    background-color: black;
     display: flex;
     margin-left: 30px;
     margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     font-size: 40px;
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 400px;
     margin-top: 10px;
@@ -2712,7 +2804,6 @@ ul.nav li {
     width: 1380px;
   }
   .footer {
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
@@ -2722,13 +2813,11 @@ ul.nav li {
   }
   .redes {
     margin-top: -56px;
-    background-color: black;
   }
   .redes i {
     margin: 0px;
     padding: 50px;
     position: relative;
-    background-color: black;
     color: white;
     font-size: 50px;
   }
@@ -2736,9 +2825,7 @@ ul.nav li {
 /*Inicia Responsive Quienes somos 1446px*/
 @media only screen and (min-width: 1446px) {
   .header h1 {
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
@@ -2746,47 +2833,36 @@ ul.nav li {
     border-top-left-radius: 20px;
   }
   .header h1 li {
-    background-color: black;
     display: inline;
     text-decoration: none;
   }
   .header h1 li a {
     text-transform: none;
-    background-color: black;
     text-decoration: none;
     color: white;
   }
   .nav a {
-    background-color: black;
-    color: white;
     text-decoration: none;
   }
   ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   ul.nav li {
-    background-color: black;
-    color: white;
     margin-left: 40px;
     display: inline;
   }
   .nosotros h1 {
-    background-color: black;
-    color: white;
     display: inline;
   }
   .nosotros h1.nosotros_H1 {
     text-align: left;
     margin-left: 300px;
-    background-color: black;
-    color: white;
     margin-bottom: 40px;
     margin-right: 1000px;
     padding: 10px;
@@ -2802,9 +2878,7 @@ ul.nav li {
     border-radius: 20px;
   }
   .nosotros h1.woodplace {
-    background-color: black;
     text-align: center;
-    color: white;
     display: flex;
     margin-top: -700px;
     margin-left: 950px;
@@ -2813,8 +2887,6 @@ ul.nav li {
     padding: 10px;
   }
   .nosotros h2.text1_nosotros {
-    color: white;
-    background-color: black;
     display: flex;
     margin-left: 950px;
     margin-top: 60px;
@@ -2824,14 +2896,12 @@ ul.nav li {
     font-size: 25px;
   }
   .nosotros h1.nuestrosProductos {
-    color: white;
     margin-top: -1000px;
     margin-left: 300px;
     padding: 20px;
     border-radius: 20px;
   }
   .nosotros h1.nuestrosProductos {
-    background-color: black;
     text-align: center;
     color: white;
     display: flex;
@@ -2842,8 +2912,6 @@ ul.nav li {
     padding-right: -500px;
   }
   .nosotros h2.text2_productos {
-    color: white;
-    background-color: black;
     display: flex;
     margin-left: 300px;
     margin-top: 60px;
@@ -2861,29 +2929,23 @@ ul.nav li {
     border-radius: 20px;
   }
   .footer {
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
   }
   .footer h1 {
-    background-color: black;
     padding: 50px;
     margin-left: -50px;
     margin-top: 0px;
-    color: white;
     position: absolute;
   }
   .redes {
     margin-top: -56px;
-    background-color: black;
   }
   .redes i {
     margin: 0px;
     padding: 50px;
     position: relative;
-    background-color: black;
-    color: white;
     font-size: 50px;
   }
 }
@@ -3023,8 +3085,6 @@ ul.nav li {
 @media only screen and (min-width: 1446px) {
   .contacto h1 {
     text-align: center;
-    background-color: black;
-    color: white;
     padding: 20px;
     margin: 30px;
     border-radius: 20px;

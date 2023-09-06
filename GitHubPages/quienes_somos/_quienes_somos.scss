@@ -2,8 +2,6 @@
 @media only screen and (min-width: 375px)
 {
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
 }
 ul.nav {
@@ -16,8 +14,6 @@ ul.nav {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;   
     li{
-        background-color: black;
-        color: white;
         margin: 30px;
         display: grid ;   
     }
@@ -28,8 +24,6 @@ ul.nav {
         text-align: left;
         margin: 30px;
         margin-right: -70px;
-        background-color: black;
-        color: white;
         padding-right: 59px;
     }
 }
@@ -42,22 +36,16 @@ ul.nav {
     border-radius: 20px;
 }
 .nosotros h1{
-    background-color: black;
-    color: white;
     display: grid;
 }
 .nosotros h1.woodplace{
-    background-color: black;
     text-align: left;
     margin-top: -10px;
     margin-left: 30px;
     margin-right: -70px;
-    color: white;
     display: grid;
 }
 .nosotros h2.text1_nosotros {
-    color: white;
-    background-color: black;
     display: grid;
     padding-right: 295px;
     margin-top: 10px;
@@ -67,9 +55,7 @@ ul.nav {
     text-transform: uppercase;
 }
 .nosotros h1.nuestrosProductos{
-    background-color: black;
     text-align: left;
-    color: white;
     display: grid;
     margin-top: 20px;
     margin-left: 30px;
@@ -77,15 +63,12 @@ ul.nav {
     margin-right: -70px;
 }
 .nosotros h2.text2_productos{
-    background-color: black;
     display: flex;
     margin-left: 30px;  
     margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     font-size: 30px;
-    color: white;
-    background-color: black;
     display: grid;
     margin-top: 10px;
     padding-right: 295px;
@@ -99,11 +82,7 @@ ul.nav {
     width: 320px;
 }
 .footer{
-    background-color: black;
     padding-left: 10%;
-    h1{
-        background-color: black;   
-    }
 }
 .redes i{
     padding:0;
@@ -118,8 +97,6 @@ ul.nav {
 @media only screen and (min-width: 480px)
 {
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     
 }
@@ -133,8 +110,6 @@ ul.nav {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;   
     li{
-        background-color: black;
-        color: white;
         margin: 30px;
         display: grid ;   
     }
@@ -145,8 +120,7 @@ ul.nav {
 .nosotros h1.nosotros_H1{
     text-align: left;
     margin: 30px;
-    background-color: black;
-    color: white;
+    margin-right: -77px;
 }
 
 .nosotros img.img1_nosotros{
@@ -158,22 +132,16 @@ ul.nav {
     border-radius: 20px;
 }
 .nosotros h1{
-    background-color: black;
-    color: white;
     display: grid;
 }
 .nosotros h1.woodplace{
-    background-color: black;
     text-align: left;
     margin-top: -10px;
     margin-left: 30px;
     margin-right: -77px;
-    color: white;
     display: grid;
 }
 .nosotros h2.text1_nosotros{
-    color: white;
-    background-color: black;
     display: grid;
     padding-right:400px ;
     margin-top: 10px;
@@ -183,9 +151,7 @@ ul.nav {
     text-transform: uppercase;
 }
 .nosotros h1.nuestrosProductos{
-    background-color: black;
     text-align: left;
-    color: white;
     display: grid;
     margin-top: 20px;
     margin-left: 30px;
@@ -193,15 +159,12 @@ ul.nav {
     margin-right: -77px;
 }
 .nosotros h2.text2_productos{
-    background-color: black;
     display: flex;
     margin-left: 30px;  
     margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     font-size: 40px;
-    color: white;
-    background-color: black;
     display: grid;
     padding-right:400px ;
     margin-top: 10px;
@@ -216,11 +179,7 @@ ul.nav {
     width: 425px;
 }
 .footer{
-    background-color: black;
     padding-left: 18%;
-    h1{
-        background-color: black;   
-    }
 }
 .redes i{
     padding:0;
@@ -234,8 +193,6 @@ ul.nav {
 @media only screen and (min-width: 768px)
 {
 .nav a{
-        background-color: black;
-        color: white;
         text-decoration: none;
         
 }
@@ -243,7 +200,6 @@ ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
@@ -346,8 +302,6 @@ ul.nav {
         padding: 50px;
         padding-right: 20px;
         position:  relative; 
-        background-color: black;
-        color: white;  
         font-size: 40px;
     }
 }
@@ -357,29 +311,23 @@ ul.nav {
 @media only screen and (min-width: 1440px)
 {
 .header h1{
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     li{
-        background-color: black; 
         display: inline;
         text-decoration: none;
     }
     li a{
         text-transform: none;
-        background-color: black;
         text-decoration: none;
         color: white;
     }
 }
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
     
 }
@@ -387,13 +335,11 @@ ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;   
     li{
-        background-color: black;
         color: white;
         margin-left: 40px;
         display: inline ;   
@@ -405,8 +351,6 @@ ul.nav {
         text-align: left;
         margin: 30px;
         margin-right: -70px;
-        background-color: black;
-        color: white;
     }
     img.img1_nosotros{
         margin-left: 30px;
@@ -417,22 +361,16 @@ ul.nav {
         border-radius: 20px;
     }
     h1{
-        background-color: black;
-        color: white;
         display: grid;
     }
     h1.woodplace{
-        background-color: black;
         text-align: left;
         margin-top: -10px;
         margin-left: 30px;
         margin-right: -77px;
-        color: white;
         display: grid;
     }
     h2.text1_nosotros{
-        color: white;
-        background-color: black;
         display: grid;
         padding-right:400px ;
         margin-top: 10px;
@@ -442,9 +380,7 @@ ul.nav {
         text-transform: uppercase;
     }
     h1.nuestrosProductos{
-        background-color: black;
         text-align: left;
-        color: white;
         display: grid;
         margin-top: 20px;
         margin-left: 30px;
@@ -452,15 +388,12 @@ ul.nav {
         margin-right: -75px;
     }
     h2.text2_productos{
-        background-color: black;
         display: flex;
         margin-left: 30px;  
         margin-top: 60px;
         padding: 20px;
         border-radius: 20px;
         font-size: 40px;
-        color: white;
-        background-color: black;
         display: grid;
         padding-right:400px ;
         margin-top: 10px;
@@ -476,7 +409,6 @@ ul.nav {
     }
 }
 .footer{
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
@@ -487,12 +419,10 @@ ul.nav {
 }
 .redes{
     margin-top: -56px;
-    background-color: black;
     i{
         margin: 0px;
         padding: 50px;
         position:  relative; 
-        background-color: black;
         color: white;  
         font-size: 50px;
     }
@@ -503,58 +433,44 @@ ul.nav {
 @media only screen and (min-width: 1446px)
 {
 .header h1{
-    color: white;
     margin: 30px;
-    background-color: black;
     margin-bottom: 0;
     padding: 50px;
     text-align: center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     li{
-        background-color: black; 
         display: inline;
         text-decoration: none;
     }
     li a{
         text-transform: none;
-        background-color: black;
         text-decoration: none;
         color: white;
     }
 }
 .nav a{
-    background-color: black;
-    color: white;
     text-decoration: none;
-    
 }
 ul.nav {
     padding: 20px;
     margin: 30px;
     margin-top: 0;
-    background-color: black;
     font-size: 20px;
     text-align: center; 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;   
     li{
-        background-color: black;
-        color: white;
         margin-left: 40px;
         display: inline ;   
     }
 }
 .nosotros h1{
-    background-color: black;
-    color: white;
     display: inline;
 }
 .nosotros h1.nosotros_H1{
     text-align: left;
     margin-left: 300px;
-    background-color: black;
-    color: white;
     margin-bottom: 40px;
     margin-right: 1000px;
     padding: 10px;
@@ -570,9 +486,7 @@ ul.nav {
     border-radius: 20px;
 }
 .nosotros h1.woodplace{
-    background-color: black;
     text-align: center;
-    color: white;
     display: flex;
     margin-top: -700px;
     margin-left: 950px;
@@ -581,8 +495,6 @@ ul.nav {
     padding: 10px;
 }
 .nosotros h2.text1_nosotros{
-    color: white;
-    background-color: black;
     display: flex;
     margin-left: 950px;
     margin-top: 60px;
@@ -592,14 +504,12 @@ ul.nav {
     font-size: 25px;
 }
 .nosotros h1.nuestrosProductos{
-    color: white;
     margin-top: -1000px;
     margin-left: 300px;   
     padding: 20px;
     border-radius: 20px;
 }
 .nosotros h1.nuestrosProductos{
-    background-color: black;
     text-align: center;
     color: white;
     display: flex;
@@ -610,8 +520,6 @@ ul.nav {
     padding-right: -500px;
 }
 .nosotros h2.text2_productos{
-    color: white;
-    background-color: black;
     display: flex;
     margin-left: 300px;  
     margin-top: 60px;
@@ -630,28 +538,22 @@ ul.nav {
     border-radius: 20px;
 }
 .footer{
-    background-color: black;
     text-align: center;
     padding-left: 800px;
     margin-top: 600px;
     h1{
-        background-color: black;
         padding: 50px;
         margin-left: -50px;
         margin-top: 0px;
-        color: white;
         position: absolute; 
     }
 }
 .redes{
     margin-top: -56px;
-    background-color: black;
     i{
         margin: 0px;
         padding: 50px;
         position:  relative; 
-        background-color: black;
-        color: white;  
         font-size: 50px;
     }
 }

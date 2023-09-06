@@ -77,6 +77,8 @@ ul.nav {
     }   
     
 }
+
+/* .galeria-inicio sirve para acomodar las cuatro(4) imagenes primeras con un sistema de grid, ademas de que le da un filtro gris y con el hover le devuelvo el color a las img y les aumenta minimamente la escala*/
 .galeria-inicio{
     display: grid;
     text-align: center;
@@ -330,6 +332,7 @@ ul li.img-cedro
     margin-left: 400px;
     margin-right: 400px;
 }
+/*.galeria modifica el posicionamiento de las img que estan debajo los tipos de madera*/
 .galeria{
     display: grid;
     text-align: center;
@@ -349,7 +352,11 @@ ul li.img-cedro
         cursor: pointer;   
     }
 }
+/*.item le da un filtro de gris a las imagenes mas un hover que le incrementa la escala y le devuelve el color a las img*/
 .item{
+    object-fit: cover;
+    background-size: 100% 100%;
+    height:100%;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -360,44 +367,256 @@ ul li.img-cedro
         transform: scale(1.02);  
     }
 }
-.item1{
-    background-image: url(./GitHubPages/producto/img/estantes\ 1.jpg);
+
+/*Empieza los img de la parte de roble*/
+.item1-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble1.jpg);
     grid-area: img1;
 }
-.item2{
-    background-image: url(./GitHubPages/producto/img/mesa\ 1.jpg);
+.item2-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble2.jpg);
     grid-area: img2;
 }
-.item3{
-    background-image: url(./GitHubPages/producto/img/mesa\ 2.jpg);
+.item3-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble3.jpg);
     grid-area: img3;
 }
-.item4{
-    background-image: url(./GitHubPages/producto/img/mesa\ 3.jpg);  
+.item4-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble4.jpg);  
     grid-area: img4;
 }
-.item5{
-    background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);  
+.item5-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble5.jpg);  
     grid-area: img5;
 }
-.item6{
-    background-image: url(./GitHubPages/producto/img/mueble\ 1.jpg);  
+.item6-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble6.jpg);  
     grid-area: img6;
 }
-.item7{   
-    background-image: url(./GitHubPages/producto/img/sillon\ 1.jpg);  
+.item7-r{   
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble7.png);  
     grid-area: img7;
 }
-.item8{
-    background-image: url(./GitHubPages/producto/img/sillon\ 2.jpg);  
+.item8-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble8.jpg);  
     grid-area: img8;
 }
-.item9{   
-    background-image: url(./GitHubPages/producto/img/sillon\ 3.jpg);  
+.item9-r{   
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble9.jpg);  
     grid-area: img9;
 }
-.item10{
-    background-image: url(./GitHubPages/producto/img/sillon\ 4.jpg);  
+.item10-r{
+    background-image: url(./GitHubPages/producto/img/img-roble/img-roble10.jpg);  
+    grid-area: img10;
+}
+
+/*Empieza los img de la parte de caoba*/
+.item1-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba1.jpg);
+    grid-area: img1;
+}
+.item2-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba2.jpg);
+    grid-area: img2;
+}
+.item3-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba3.jpg);
+    grid-area: img3;
+}
+.item4-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba4.jpg);  
+    grid-area: img4;
+}
+.item5-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba5.jpg);  
+    grid-area: img5;
+}
+.item6-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba6.jpg);  
+    grid-area: img6;
+}
+.item7-ca{   
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba7.jpg);  
+    grid-area: img7;
+}
+.item8-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba8.jpg);  
+    grid-area: img8;
+}
+.item9-ca{   
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba9.jpg);  
+    grid-area: img9;
+}
+.item10-ca{
+    background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba10.jpg);  
+    grid-area: img10;
+}
+
+/*Empieza los img de la parte de nogal*/
+.item1-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal1.jpg);
+    grid-area: img1;
+}
+.item2-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal2.jpeg);
+    grid-area: img2;
+}
+.item3-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal3.jpg);
+    grid-area: img3;
+}
+.item4-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal4.jpg);  
+    grid-area: img4;
+}
+.item5-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal5.jpg);  
+    grid-area: img5;
+}
+.item6-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal6.jpg);  
+    grid-area: img6;
+}
+.item7-n{   
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal7.jpg);  
+    grid-area: img7;
+}
+.item8-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal8.jpg);  
+    grid-area: img8;
+}
+.item9-n{   
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal9.jpg);  
+    grid-area: img9;
+}
+.item10-n{
+    background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal10.jpg);  
+    grid-area: img10;
+}
+
+/*Empieza los img de la parte de pino*/
+.item1-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino1.jpg);
+    grid-area: img1;
+}
+.item2-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino2.jpg);
+    grid-area: img2;
+}
+.item3-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino3.jpg);
+    grid-area: img3;
+}
+.item4-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino4.jpg);  
+    grid-area: img4;
+}
+.item5-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino5.jpg);  
+    grid-area: img5;
+}
+.item6-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino6.jpg);  
+    grid-area: img6;
+}
+.item7-p{   
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino7.jpg);  
+    grid-area: img7;
+}
+.item8-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino8.jpg);  
+    grid-area: img8;
+}
+.item9-p{   
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino9.jpg);  
+    grid-area: img9;
+}
+.item10-p{
+    background-image: url(./GitHubPages/producto/img/img-pino/img-pino10.jpg);  
+    grid-area: img10;
+}
+
+/*Empieza los img de la parte de arce*/
+.item1-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce1.jpg);
+    grid-area: img1;
+}
+.item2-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce2.jpg);
+    grid-area: img2;
+}
+.item3-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce3.jpg);
+    grid-area: img3;
+}
+.item4-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce4.jpg);  
+    grid-area: img4;
+}
+.item5-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce5.jpg);  
+    grid-area: img5;
+}
+.item6-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce6.jpg);  
+    grid-area: img6;
+}
+.item7-a{   
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce7.jpg);  
+    grid-area: img7;
+}
+.item8-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce8.jpg);  
+    grid-area: img8;
+}
+.item9-a{   
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce9.jpg);  
+    grid-area: img9;
+}
+.item10-a{
+    background-image: url(./GitHubPages/producto/img/img-arce/img-arce10.jpg);  
+    grid-area: img10;
+}
+
+/*Empieza los img de la parte de cedro*/
+.item1-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro1.jpg);
+    grid-area: img1;
+}
+.item2-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro2.jpg);
+    grid-area: img2;
+}
+.item3-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro3.jpg);
+    grid-area: img3;
+}
+.item4-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro4.jpg);  
+    grid-area: img4;
+}
+.item5-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro5.jpeg);  
+    grid-area: img5;
+}
+.item6-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro6.jpeg);  
+    grid-area: img6;
+}
+.item7-ce{   
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro7.jpg);  
+    grid-area: img7;
+}
+.item8-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro8.jpg);  
+    grid-area: img8;
+}
+.item9-ce{   
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro9.jpg);  
+    grid-area: img9;
+}
+.item10-ce{
+    background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro10.jpg);  
     grid-area: img10;
 }
 
@@ -418,6 +637,7 @@ ul li.img-cedro
     border: 10px solid black;
     position: absolute;
 }
+/* .profesionales img.img1_profesionales sirve para modificar la primer img que se encuentra*/
 .profesionales img.img1_profesionales{
     text-align: center;
     margin-top: 30px;
@@ -433,6 +653,7 @@ ul li.img-cedro
     border-radius: 20px;
     padding: 50px;
 }
+/* .profesionales img.img2_profesionales sirve para modificar la segunda img que se encuentra*/
 .profesionales img.img2_profesionales{
     text-align: center;
     margin-top: 200px;
@@ -450,6 +671,7 @@ ul li.img-cedro
     border-radius: 20px;
     padding: 50px;
 }
+/* .profesionales img.img3_profesionales sirve para modificar la tercera img que se encuentra*/
 .profesionales img.img3_profesionales{
     text-align: center;
     margin-top: 150px;
@@ -489,6 +711,7 @@ ul li.img-cedro
     border-radius: 10px;
     position: absolute;
 }
+/* Desde la linea 712 hasta la 754 esta el control de los cinco(5) campos de relleno y un(1) boton, cada uno diferenciado por clase*/
 .trabajaConNosotros input.nya_trabajaConNosotros{
     margin-left: 550px;
     margin-top: 30px;
@@ -548,6 +771,7 @@ ul li.img-cedro
     padding-right: 415px;
     border-radius: 20px;
 }
+/* .nosotros img.img1_nosotros sirve para modificar la primer img que se encuentra*/
 .nosotros img.img1_nosotros{
     margin-left: 300px;
     margin-top: 20px;
@@ -610,6 +834,7 @@ ul li.img-cedro
     border-radius: 20px;
     font-size: 31px;
 }
+/* .nosotros img.img2 sirve para modificar la segunda img que se encuentra*/
 .nosotros img.img2{
     margin-left: 996px;
     margin-top: -520px;
@@ -641,6 +866,7 @@ ul li.img-cedro
     font-size: 15px;
     text-transform: uppercase;
 }
+
 .contacto input.button.button_contacto{
     text-align: center;
     margin: 30px;
@@ -651,6 +877,7 @@ ul li.img-cedro
     padding-right: 50px;
     border-radius: 5px;
 }
+/* .contacto iframe sirve para modificar la implementacion del google maps*/
 .contacto iframe {
     display: inline;
     margin-left: 30px;
@@ -715,4 +942,5 @@ ul li.img-cedro
     margin-bottom: 500px;
 }
 
+/* @import sirve para aplicar el resto de archivos .scss para unirlos todos dentro de un solo archivo .css, estan en orden como aparecen en la pagina.*/
 @import "GitHubPages/inicio/inicio","GitHubPages/producto/producto","GitHubPages/profesionales/profesionales","GitHubPages/quienes_somos/quienes_somos", "GitHubPages/contacto/contacto"
