@@ -107,22 +107,22 @@ ul.nav li {
   transform: scale(1.02);
 }
 .galeria-inicio .item1-inicio {
-  background-image: url(./GitHubPages/inicio/img/sillon\ 1.jpg);
+  background-image: url(./GitHubPages/inicio/img/sillon\ 1.webp);
   grid-area: img1-i;
   border-radius: 30px;
 }
 .galeria-inicio .item2-inicio {
-  background-image: url(./GitHubPages/inicio/img/mesa\ 1.jpg);
+  background-image: url(./GitHubPages/inicio/img/mesa\ 1.webp);
   grid-area: img2-i;
   border-radius: 30px;
 }
 .galeria-inicio .item3-inicio {
-  background-image: url(./GitHubPages/inicio/img/mesa\ 2.jpg);
+  background-image: url(./GitHubPages/inicio/img/mesa\ 2.webp);
   grid-area: img3-i;
   border-radius: 30px;
 }
 .galeria-inicio .item4-inicio {
-  background-image: url(./GitHubPages/inicio/img/mueble\ 1.jpg);
+  background-image: url(./GitHubPages/inicio/img/mueble\ 1.webp);
   grid-area: img4-i;
   border-radius: 30px;
 }
@@ -202,8 +202,7 @@ ul.nav li {
   border-radius: 20px;
 }
 .tiposDeMueble ul li {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: 100% 100%;
   height: 100%;
   opacity: 0.6;
@@ -221,22 +220,22 @@ ul.nav li {
   display: inline-block;
 }
 .tiposDeMueble ul li.img-roble {
-  background-image: url(./GitHubPages/inicio/img/img-roble.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-roble.webp);
 }
 .tiposDeMueble ul li.img-caoba {
-  background-image: url(./GitHubPages/inicio/img/img-caoba.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-caoba.webp);
 }
 .tiposDeMueble ul li.img-nogal {
-  background-image: url(./GitHubPages/inicio/img/img-nogal.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-nogal.webp);
 }
 .tiposDeMueble ul li.img-pino {
-  background-image: url(./GitHubPages/inicio/img/img-pino.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-pino.webp);
 }
 .tiposDeMueble ul li.img-arce {
-  background-image: url(./GitHubPages/inicio/img/img-arce.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-arce.webp);
 }
 .tiposDeMueble ul li.img-cedro {
-  background-image: url(./GitHubPages/inicio/img/cedro-img.jpg);
+  background-image: url(./GitHubPages/inicio/img/img-cedro.webp);
 }
 .tiposDeMueble ul li a {
   background-color: black;
@@ -352,8 +351,7 @@ ul.nav li {
 
 /*.item le da un filtro de gris a las imagenes mas un hover que le incrementa la escala y le devuelve el color a las img*/
 .item {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: 100% 100%;
   height: 100%;
   background-size: cover;
@@ -369,307 +367,307 @@ ul.nav li {
 
 /*Empieza los img de la parte de roble*/
 .item1-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble1.webp);
   grid-area: img1;
 }
 
 .item2-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble2.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble2.webp);
   grid-area: img2;
 }
 
 .item3-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble3.webp);
   grid-area: img3;
 }
 
 .item4-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble4.webp);
   grid-area: img4;
 }
 
 .item5-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble5.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble5.webp);
   grid-area: img5;
 }
 
 .item6-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble6.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble6.webp);
   grid-area: img6;
 }
 
 .item7-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble7.png);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble7.webp);
   grid-area: img7;
 }
 
 .item8-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble8.webp);
   grid-area: img8;
 }
 
 .item9-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble9.webp);
   grid-area: img9;
 }
 
 .item10-r {
-  background-image: url(./GitHubPages/producto/img/img-roble/img-roble10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-roble/img-roble10.webp);
   grid-area: img10;
 }
 
 /*Empieza los img de la parte de caoba*/
 .item1-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba1.webp);
   grid-area: img1;
 }
 
 .item2-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba2.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba2.webp);
   grid-area: img2;
 }
 
 .item3-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba3.webp);
   grid-area: img3;
 }
 
 .item4-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba4.webp);
   grid-area: img4;
 }
 
 .item5-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba5.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba5.webp);
   grid-area: img5;
 }
 
 .item6-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba6.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba6.webp);
   grid-area: img6;
 }
 
 .item7-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba7.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba7.webp);
   grid-area: img7;
 }
 
 .item8-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba8.webp);
   grid-area: img8;
 }
 
 .item9-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba9.webp);
   grid-area: img9;
 }
 
 .item10-ca {
-  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-caoba/img-caoba10.webp);
   grid-area: img10;
 }
 
 /*Empieza los img de la parte de nogal*/
 .item1-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal1.webp);
   grid-area: img1;
 }
 
 .item2-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal2.jpeg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal2.webp);
   grid-area: img2;
 }
 
 .item3-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal3.webp);
   grid-area: img3;
 }
 
 .item4-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal4.webp);
   grid-area: img4;
 }
 
 .item5-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal5.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal5.webp);
   grid-area: img5;
 }
 
 .item6-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal6.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal6.webp);
   grid-area: img6;
 }
 
 .item7-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal7.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal7.webp);
   grid-area: img7;
 }
 
 .item8-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal8.webp);
   grid-area: img8;
 }
 
 .item9-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal9.webp);
   grid-area: img9;
 }
 
 .item10-n {
-  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-nogal/img-nogal10.webp);
   grid-area: img10;
 }
 
 /*Empieza los img de la parte de pino*/
 .item1-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino1.webp);
   grid-area: img1;
 }
 
 .item2-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino2.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino2.webp);
   grid-area: img2;
 }
 
 .item3-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino3.webp);
   grid-area: img3;
 }
 
 .item4-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino4.webp);
   grid-area: img4;
 }
 
 .item5-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino5.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino5.webp);
   grid-area: img5;
 }
 
 .item6-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino6.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino6.webp);
   grid-area: img6;
 }
 
 .item7-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino7.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino7.webp);
   grid-area: img7;
 }
 
 .item8-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino8.webp);
   grid-area: img8;
 }
 
 .item9-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino9.webp);
   grid-area: img9;
 }
 
 .item10-p {
-  background-image: url(./GitHubPages/producto/img/img-pino/img-pino10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-pino/img-pino10.webp);
   grid-area: img10;
 }
 
 /*Empieza los img de la parte de arce*/
 .item1-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce1.webp);
   grid-area: img1;
 }
 
 .item2-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce2.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce2.webp);
   grid-area: img2;
 }
 
 .item3-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce3.webp);
   grid-area: img3;
 }
 
 .item4-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce4.webp);
   grid-area: img4;
 }
 
 .item5-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce5.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce5.webp);
   grid-area: img5;
 }
 
 .item6-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce6.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce6.webp);
   grid-area: img6;
 }
 
 .item7-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce7.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce7.webp);
   grid-area: img7;
 }
 
 .item8-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce8.webp);
   grid-area: img8;
 }
 
 .item9-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce9.webp);
   grid-area: img9;
 }
 
 .item10-a {
-  background-image: url(./GitHubPages/producto/img/img-arce/img-arce10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-arce/img-arce10.webp);
   grid-area: img10;
 }
 
 /*Empieza los img de la parte de cedro*/
 .item1-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro1.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro1.webp);
   grid-area: img1;
 }
 
 .item2-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro2.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro2.webp);
   grid-area: img2;
 }
 
 .item3-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro3.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro3.webp);
   grid-area: img3;
 }
 
 .item4-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro4.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro4.webp);
   grid-area: img4;
 }
 
 .item5-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro5.jpeg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro5.webp);
   grid-area: img5;
 }
 
 .item6-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro6.jpeg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro6.webp);
   grid-area: img6;
 }
 
 .item7-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro7.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro7.webp);
   grid-area: img7;
 }
 
 .item8-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro8.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro8.webp);
   grid-area: img8;
 }
 
 .item9-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro9.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro9.webp);
   grid-area: img9;
 }
 
 .item10-ce {
-  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro10.jpg);
+  background-image: url(./GitHubPages/producto/img/img-cedro/img-cedro10.webp);
   grid-area: img10;
 }
 
@@ -1542,8 +1540,7 @@ ul.nav li {
   }
   .tiposDeMueble ul li {
     opacity: 0.7;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     background-color: white;
     width: 50px;
     height: 50px;
@@ -3152,4 +3149,6 @@ ul.nav li {
     margin-left: 68%;
     margin-bottom: 500px;
   }
-}/*# sourceMappingURL=estilo.css.map */
+}
+
+/*# sourceMappingURL=estilo.css.map */
