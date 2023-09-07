@@ -298,6 +298,7 @@ ul.nav li {
 }
 .footer h1 {
   background-color: black;
+  color: white;
   padding: 50px;
   position: absolute;
 }
