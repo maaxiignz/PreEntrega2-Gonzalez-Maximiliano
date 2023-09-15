@@ -1,3 +1,82 @@
+
+/*Inicia Responsive Productos 320px*/
+@media only screen and (min-width: 320px)
+{
+.nav a{
+    text-decoration: none;
+}
+ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    li{
+        margin: 30px;
+        display: grid ;   
+    }   
+}
+.producto h1 {
+    margin-left: 30px;
+    margin-right: 0px;
+    padding-right: 30px;
+}
+.galeria {
+    margin-top: -30px;
+    /* margin-left: 276px; */
+    width: 280px;
+    height: 300px;
+    margin-left: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 200px);
+    grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8"
+        "img9"
+        "img10";
+}
+.ofertaCaoba h1{
+    margin-top: 1840px;
+}
+.ofertaNogal h1{
+    margin-top: 1840px;
+}
+.ofertaPino h1{
+    margin-top: 1840px;
+}
+.ofertaArce h1{
+    margin-top: 1840px;
+}
+.ofertaCedro h1{
+    margin-top: 1840px;
+}
+.footer{
+    padding-left: 18%;
+    margin-top: 1879px;
+    i{
+        padding:0;
+        margin-top: 100px;
+        font-size: 41px;
+        display: inline-flex;
+        margin-right: 55px;
+    }
+}
+.redes i{
+    padding:0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
+}
+}
 /*Inicia Responsive Productos 375px*/
 @media only screen and (min-width: 375px)
 {
@@ -69,7 +148,16 @@ ul.nav {
     margin-right: 85px;
 }
 }
-
+/*Inicia Responsive Productos 425px*/
+@media only screen and (min-width: 425px)
+{
+    .header h1 {
+        padding-left: 80px;
+    }
+    .galeria {
+        margin-left: 30px;
+    }
+}
 /*Inicia Responsive Productos 480px*/
 @media only screen and (min-width: 480px)
 {

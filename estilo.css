@@ -308,6 +308,7 @@ ul.nav li {
   text-align: right;
   color: white;
   background-color: black;
+  padding-bottom: 1px;
 }
 .redes i {
   padding: 50px;
@@ -1016,10 +1017,194 @@ ul.nav li {
 }
 
 /* @import sirve para aplicar el resto de archivos .scss para unirlos todos dentro de un solo archivo .css, estan en orden como aparecen en la pagina.*/
+/* Inicia Responsive Inicio 320px */
+@media only screen and (min-width: 320px) {
+  .frase h1 {
+    padding: 50px;
+    font-size: 40px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .frase h2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 30px;
+    margin-right: 0px;
+  }
+  .galeria-inicio {
+    margin-left: 38px;
+    width: 315px;
+    height: 200px;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: "img1-i" "img2-i" "img3-i" "img4-i";
+  }
+  .productos_destacados h1 {
+    margin-top: 650px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: -460px;
+    margin-left: 48px;
+    margin-right: 8px;
+  }
+  .productos_destacados img {
+    border: 10px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 55px;
+  }
+  .productos_destacados img.arriba-img1 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.arriba-1 {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: -60px;
+    margin-right: 30px;
+  }
+  .productos_destacados img.arriba-img2 {
+    position: absolute;
+    margin-top: 780px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.arriba-2 {
+    position: absolute;
+    margin-top: 1010px;
+    margin-left: -95px;
+    margin-right: 0px;
+  }
+  .productos_destacados img.arriba-img3 {
+    position: absolute;
+    margin-top: 1055px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.arriba-3 {
+    position: absolute;
+    margin-top: 1285px;
+    margin-left: -60px;
+    margin-right: 30px;
+  }
+  .productos_destacados img.abajo-img1 {
+    position: absolute;
+    margin-top: 1330px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.abajo-1 {
+    position: absolute;
+    margin-top: 1560px;
+    margin-left: -115px;
+    margin-right: 0px;
+  }
+  .productos_destacados img.abajo-img2 {
+    position: absolute;
+    margin-top: 1605px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.abajo-2 {
+    position: absolute;
+    margin-top: 1835px;
+    margin-left: -105px;
+    margin-right: 0px;
+  }
+  .productos_destacados img.abajo-img3 {
+    position: absolute;
+    margin-top: 1880px;
+    margin-left: -88px;
+  }
+  .productos_destacados h3.abajo-3 {
+    position: absolute;
+    margin-top: 2110px;
+    margin-left: -85px;
+    margin-right: -349px;
+  }
+  .tiposDeMueble h1 {
+    margin: 15px;
+    font-size: 40px;
+    margin-left: 35px;
+    margin-top: 2200px;
+  }
+  .tiposDeMueble ul {
+    margin: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-right: 275px;
+  }
+  .tiposDeMueble ul li {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    margin-top: 34px;
+    margin-bottom: 50px;
+    margin-right: 24px;
+    margin-left: 30px;
+    padding: 69px;
+    display: inline-block;
+  }
+  .primicias {
+    padding: 10px;
+    padding-right: 14px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: black;
+  }
+  .primicias h1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 35px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .primicias h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+  .primicias input.mail {
+    margin-left: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .primicias input.boton {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .footer {
+    padding-left: 10%;
+  }
+  .footer h1 {
+    padding-right: 78px;
+    padding-bottom: 75px;
+  }
+  .redes i {
+    padding: 10px !important;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 18px !important;
+  }
+}
 /* Inicia Responsive Inicio 375px */
 @media only screen and (min-width: 375px) {
+  .frase h1 {
+    margin-right: 26px;
+  }
   .frase h2 {
-    padding: 0px;
+    padding: 15px;
+    padding-right: 20px;
+    margin-right: 26px;
     font-size: 30px;
   }
   .galeria-inicio {
@@ -1034,10 +1219,9 @@ ul.nav li {
     padding: 10px;
   }
   .productos_destacados h1 {
-    margin-top: 650px;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-bottom: -460px;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-right: 30px;
   }
   .productos_destacados img {
     border: 10px solid black;
@@ -1124,15 +1308,11 @@ ul.nav li {
     margin-top: 5px;
   }
   .tiposDeMueble ul li {
-    width: 50px;
-    height: 50px;
-    margin: 30px;
-    margin-top: 34px;
-    margin-bottom: 50px;
-    margin-right: 24px;
-    margin-left: 30px;
-    padding: 69px;
-    display: inline-block;
+    margin-left: 60px;
+    padding: 70px;
+  }
+  .primicias {
+    margin-right: 30px;
   }
   .primicias h1 {
     margin-top: 30px;
@@ -1155,6 +1335,43 @@ ul.nav li {
     font-size: 40px;
     margin-top: -10px;
     margin-left: 10px;
+  }
+}
+/* Inicia Responsive Inicio 425px */
+@media only screen and (min-width: 425px) {
+  .frase h1 {
+    margin-right: 30px;
+  }
+  .frase h2 {
+    padding: 0px;
+    padding-right: 50px;
+    margin-right: 30px;
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .frase .galeria-inicio {
+    margin-left: 50px;
+  }
+  .productos_destacados h1 {
+    margin-top: 650px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: -460px;
+    margin-right: 30px;
+    padding-right: 10px;
+  }
+  .tiposDeMueble h1 {
+    margin: 15px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 2200px;
+    border-radius: 10px;
+  }
+  .tiposDeMueble ul li {
+    margin-left: 90px;
+  }
+  .primicias {
+    margin-right: 35px;
   }
 }
 /*Inicia Responsive Inicio 480px*/
@@ -1289,9 +1506,19 @@ ul.nav li {
   .tiposDeMueble h1 {
     margin-top: 1140px;
   }
+  .tiposDeMueble ul {
+    padding-right: 170px;
+  }
+  .tiposDeMueble ul li {
+    margin-right: -70px;
+    margin-left: 87px;
+  }
 }
 /* Inicia Responsive Inicio 1024px */
 @media only screen and (min-width: 1024px) {
+  .frase .galeria-inicio {
+    margin-left: 100px;
+  }
   .frase h2 {
     padding: 30px;
     font-size: 30px;
@@ -1485,26 +1712,21 @@ ul.nav li {
     margin-left: 360px;
     margin-right: -349px;
   }
+  .tiposDeMueble ul {
+    padding-right: 20px;
+  }
   .tiposDeMueble h1 {
     margin-top: 660px;
     margin-left: 15px;
   }
   .tiposDeMueble ul li {
     opacity: 0.7;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    margin: 30px;
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 150px;
-    padding: 80px;
-    display: inline-block;
+    margin-right: 90px;
   }
-  .tiposDeMueble ul li a {
+  .tiposDeMueble a {
     border-radius: 20px;
     padding: 10px;
     margin-right: 50px;
@@ -1514,6 +1736,9 @@ ul.nav li {
 }
 /* Inicia Responsive Inicio 1446px */
 @media only screen and (min-width: 1446px) {
+  .frase .galeria-inicio {
+    margin-left: 230px;
+  }
   .productos_destacados h1 {
     margin: 30px;
     margin-left: 30px;
@@ -1532,6 +1757,80 @@ ul.nav li {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 200px);
     grid-template-areas: "img1-i img2-i img3-i img4-i";
+  }
+  .tiposDeMueble h1 {
+    font-size: 30px;
+  }
+  .tiposDeMueble ul {
+    padding-right: 156px;
+    padding-left: 237px;
+  }
+}
+/*Inicia Responsive Productos 320px*/
+@media only screen and (min-width: 320px) {
+  .nav a {
+    text-decoration: none;
+  }
+  ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  ul.nav li {
+    margin: 30px;
+    display: grid;
+  }
+  .producto h1 {
+    margin-left: 30px;
+    margin-right: 0px;
+    padding-right: 30px;
+  }
+  .galeria {
+    margin-top: -30px;
+    /* margin-left: 276px; */
+    width: 280px;
+    height: 300px;
+    margin-left: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 200px);
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10";
+  }
+  .ofertaCaoba h1 {
+    margin-top: 1840px;
+  }
+  .ofertaNogal h1 {
+    margin-top: 1840px;
+  }
+  .ofertaPino h1 {
+    margin-top: 1840px;
+  }
+  .ofertaArce h1 {
+    margin-top: 1840px;
+  }
+  .ofertaCedro h1 {
+    margin-top: 1840px;
+  }
+  .footer {
+    padding-left: 18%;
+    margin-top: 1879px;
+  }
+  .footer i {
+    padding: 0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 55px;
+  }
+  .redes i {
+    padding: 0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 85px;
   }
 }
 /*Inicia Responsive Productos 375px*/
@@ -1597,6 +1896,15 @@ ul.nav li {
     font-size: 41px;
     display: inline-flex;
     margin-right: 85px;
+  }
+}
+/*Inicia Responsive Productos 425px*/
+@media only screen and (min-width: 425px) {
+  .header h1 {
+    padding-left: 80px;
+  }
+  .galeria {
+    margin-left: 30px;
   }
 }
 /*Inicia Responsive Productos 480px*/
@@ -1905,6 +2213,102 @@ ul.nav li {
     font-size: 50px;
   }
 }
+/*Inicia Responsive Profesionales 320px*/
+@media only screen and (min-width: 320px) {
+  .profesionales h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 34px;
+    border-radius: 5px;
+    padding-right: 250px;
+    padding-left: 38px;
+  }
+  .profesionales h2.text1_profesionales {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    padding: 15px;
+    padding-right: 0px;
+  }
+  .profesionales img.img1_profesionales {
+    margin-top: 360px;
+    margin-left: 30px;
+    height: 200px;
+    width: 295px;
+  }
+  .profesionales h2.text2_profesionales {
+    margin-top: 230px;
+    margin-left: 30px;
+    margin-right: -19px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 22px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 615px;
+    margin-left: 30px;
+    height: 200px;
+    width: 310px;
+  }
+  .profesionales img.img3_profesionales {
+    margin-top: 230px;
+    height: 200px;
+    width: 310px;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+  .trabajaConNosotros h2 {
+    margin-top: 465px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: -20px;
+    border-radius: 10px;
+  }
+  .trabajaConNosotros h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 27px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: -20px;
+    border-radius: 10px;
+  }
+  .trabajaConNosotros input.nya_trabajaConNosotros {
+    margin-left: 31px;
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .trabajaConNosotros input.prof_trabajaConNosotros {
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 24px;
+  }
+  .trabajaConNosotros input.ciudad_trabajaConNosotros {
+    margin-left: 31px;
+    margin-top: 130px;
+    padding-right: 10px;
+    font-size: 24px;
+  }
+  .trabajaConNosotros input.mail_trabajaConNosotros {
+    margin-left: 30px;
+    margin-top: 180px;
+    padding-right: 10px;
+    font-size: 24px;
+  }
+  .trabajaConNosotros input.tel_trabajaConNosotros {
+    margin-left: 30px;
+    margin-top: 230px;
+    padding-right: 10px;
+    font-size: 24px;
+  }
+  .trabajaConNosotros input.button_trabajaConNosotros {
+    margin-left: 30px;
+    margin-top: 280px;
+    padding-right: 10px;
+    font-size: 25px;
+  }
+}
 /*Inicia Responsive Profesionales 375px*/
 @media only screen and (min-width: 375px) {
   .profesionales h1 {
@@ -2003,6 +2407,21 @@ ul.nav li {
     font-size: 25px;
   }
 }
+/*Inicia Responsive Profesionales 425px*/
+@media only screen and (min-width: 425px) {
+  .profesionales img.img1_profesionales {
+    margin-top: 310px;
+    margin-left: 30px;
+    width: 360px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 613px;
+    width: 360px;
+  }
+  .profesionales img.img3_profesionales {
+    width: 360px;
+  }
+}
 /*Inicia Responsive Profesionales 480px*/
 @media only screen and (min-width: 480px) {
   .profesionales img.img1_profesionales {
@@ -2042,6 +2461,9 @@ ul.nav li {
 }
 /*Inicia Responsive Profesionales 768px*/
 @media only screen and (min-width: 768px) {
+  .profesionales h1 {
+    padding-left: 230px;
+  }
   .profesionales img.img1_profesionales {
     margin-top: 165px;
     height: 200px;
@@ -2350,6 +2772,92 @@ ul.nav li {
     font-size: 40px;
   }
 }
+/*Inicia Responsive Quienes Somos 320px*/
+@media only screen and (min-width: 320px) {
+  .header h1 {
+    padding-right: 240px;
+  }
+  .nav a {
+    text-decoration: none;
+  }
+  ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 0px;
+    background-color: black;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 22px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  ul.nav li {
+    margin: 30px;
+    display: grid;
+  }
+  .nosotros {
+    margin-right: 100px;
+  }
+  .nosotros h1.nosotros_H1 {
+    text-align: left;
+    margin: 30px;
+    margin-right: -70px;
+    padding-right: 280px;
+  }
+  .nosotros img.img1_nosotros {
+    margin-left: 30px;
+    margin-top: 0px;
+    height: 300px;
+    width: 290px;
+  }
+  .nosotros h1 {
+    display: grid;
+  }
+  .nosotros h1.woodplace {
+    margin-top: -10px;
+    margin-left: 30px;
+    padding-right: 280px;
+    display: grid;
+  }
+  .nosotros h2.text1_nosotros {
+    padding-right: 270px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-left: 30px;
+    padding-right: 245px;
+    padding-left: 48px;
+  }
+  .nosotros h2.text2_productos {
+    font-size: 30px;
+    margin-top: 10px;
+    padding-right: 285px;
+    padding-left: 10px;
+    margin-left: 30px;
+    text-transform: uppercase;
+  }
+  .nosotros img.img2 {
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    width: 290px;
+  }
+  .footer {
+    padding-left: 10%;
+  }
+  .redes i {
+    padding: 0;
+    margin-top: 100px;
+    font-size: 41px;
+    display: inline-flex;
+    margin-right: 55px;
+  }
+}
 /*Inicia Responsive Quienes Somos 375px*/
 @media only screen and (min-width: 375px) {
   .nav a {
@@ -2435,12 +2943,67 @@ ul.nav li {
   .footer {
     padding-left: 10%;
   }
+  .redes {
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+    padding-right: 45px;
+    margin-left: 56px;
+    margin-left: -685px;
+  }
   .redes i {
     padding: 0;
     margin-top: 100px;
     font-size: 41px;
     display: inline-flex;
     margin-right: 55px;
+    margin-top: 100px;
+  }
+}
+/*Inicia Responsive Quienes Somos 425px*/
+@media only screen and (min-width: 425px) {
+  .nosotros img.img1_nosotros {
+    margin-left: 30px;
+    margin-top: -10px;
+    width: 360px;
+  }
+  .nosotros h1.woodplace {
+    margin-right: -65px;
+  }
+  .nosotros h2.text1_nosotros {
+    padding-right: 295px;
+    margin-right: -64px;
+  }
+  .nosotros h1.nuestrosProductos {
+    padding-left: 80px;
+    margin-right: -65px;
+  }
+  .nosotros h2.text2_productos {
+    padding-right: 340px;
+  }
+  .nosotros img.img2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 300px;
+    width: 360px;
+  }
+  .footer h1 {
+    margin-left: 20px;
+    padding-right: 78px;
+    padding-bottom: 75px;
+  }
+  .redes {
+    font-size: 50px;
+    padding-right: 70px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+  }
+  .redes i {
+    margin-top: 100px;
   }
 }
 /*Inicia Responsive Quienes Somos 480px*/
@@ -2538,6 +3101,13 @@ ul.nav li {
 }
 /*Inicia Responsive Quienes Somos 768px*/
 @media only screen and (min-width: 768px) {
+  .header {
+    margin-right: 0px;
+  }
+  .header h1 {
+    padding-right: 240px;
+    padding-left: 245px;
+  }
   .nav a {
     text-decoration: none;
   }
@@ -2556,6 +3126,9 @@ ul.nav li {
   }
   .nosotros {
     margin-right: 0px;
+  }
+  .nosotros h1.nosotros_H1 {
+    margin-right: 28px;
   }
   .nosotros img.img1_nosotros {
     margin-left: 30px;
@@ -2597,6 +3170,15 @@ ul.nav li {
   .footer h1 {
     margin-left: 80px;
   }
+  .redes {
+    font-size: 50px;
+    padding-right: 70px;
+    text-align: right;
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+    padding-right: 255px;
+  }
   .redes i {
     padding: 0;
     margin-top: 100px;
@@ -2608,18 +3190,18 @@ ul.nav li {
 /*Inicia Responsive Quienes somos 1024px*/
 @media only screen and (min-width: 1024px) {
   .nosotros h1.nosotros_H1 {
-    margin-right: -80px;
+    margin-right: 30px;
   }
   .nosotros img.img1_nosotros {
     margin-top: -20px;
-    width: 970px;
+    width: 965px;
   }
   .nosotros h2.text1_nosotros {
-    margin-right: -77px;
+    margin-right: 30px;
     padding: 20px;
   }
   .nosotros h2.text2_productos {
-    margin-right: -77px;
+    margin-right: 30px;
     padding: 20px;
   }
   .nosotros img.img2 {
@@ -2627,22 +3209,21 @@ ul.nav li {
     width: 970px;
   }
   .footer {
-    background-color: black;
-    text-align: center;
-    padding-left: 800px;
-    margin-top: 600px;
+    text-align: center !important;
+    padding-left: 800px !important;
+    margin-top: 600px !important;
+    padding-bottom: 10px;
   }
   .footer h1 {
+    margin-top: 5px;
     margin-left: -480px;
   }
   .redes {
     margin-top: -56px;
     margin-left: -240px;
+    padding-right: 40px;
   }
   .redes i {
-    margin: 0px;
-    padding: 50px;
-    padding-right: 20px;
     position: relative;
     font-size: 40px;
   }
@@ -2756,14 +3337,13 @@ ul.nav li {
     color: white;
   }
   .redes {
-    margin-top: -56px;
+    margin-top: 0px;
+    padding-bottom: 17px;
   }
   .redes i {
-    margin: 0px;
     padding: 50px;
-    position: relative;
-    color: white;
     font-size: 50px;
+    margin-top: 80px;
   }
 }
 /*Inicia Responsive Quienes somos 1446px*/
@@ -2883,14 +3463,64 @@ ul.nav li {
     margin-top: 0px;
     position: absolute;
   }
-  .redes {
-    margin-top: -56px;
-  }
   .redes i {
     margin: 0px;
     padding: 50px;
     position: relative;
     font-size: 50px;
+  }
+}
+/*Inicia Responsive Contacto 320px*/
+@media only screen and (min-width: 320px) {
+  .contacto h1 {
+    padding: 20px;
+    margin: 30px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  .contacto input {
+    padding-right: 78px;
+  }
+  .contacto iframe {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 100px;
+    width: 290px;
+    height: 304px;
+  }
+  .contacto h2.contacto {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-top: -85px;
+    margin-left: 30px;
+  }
+  .contacto h2.ubicacion {
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: -500px;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .contacto h2.mail {
+    margin-left: 30px;
+    margin-right: -3px;
+    margin-top: -500px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+  }
+  .contacto h2.num {
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: -500px;
+    border-radius: 10px;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  .contacto .footer {
+    margin-top: 800px;
   }
 }
 /*Inicia Responsive Contacto 375px*/
@@ -2937,6 +3567,15 @@ ul.nav li {
   }
   .contacto .footer {
     margin-top: 800px;
+  }
+}
+/*Inicia Responsive Quienes Somos 425px*/
+@media only screen and (min-width: 425px) {
+  .contacto h1 {
+    padding: 20px;
+    margin: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
   }
 }
 /*Inicia Responsive Contacto 480px*/
@@ -3024,6 +3663,9 @@ ul.nav li {
     width: 680px;
     height: 365px;
   }
+  .footer {
+    padding-bottom: 0px;
+  }
 }
 /*Inicia Responsive Contacto 1446px*/
 @media only screen and (min-width: 1446px) {
@@ -3095,5 +3737,13 @@ ul.nav li {
     margin-top: -480px;
     margin-left: 68%;
     margin-bottom: 500px;
+  }
+  .redes {
+    margin-top: -56px;
+  }
+  .redes i {
+    margin: 40px;
+    padding: 50px;
+    font-size: 50px;
   }
 }/*# sourceMappingURL=estilo.css.map */
