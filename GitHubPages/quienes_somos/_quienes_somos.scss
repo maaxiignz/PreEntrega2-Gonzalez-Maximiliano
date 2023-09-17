@@ -628,8 +628,57 @@ ul.nav {
     }
 }
 }
-/*Inicia Responsive Quienes somos 1447px en adelante */
-@media only screen and (min-width: 1447px)
+/*Inicia Responsive Quienes somos 1517px*/
+@media only screen and (min-width: 1517px)
+{
+.nosotros{
+    h1{
+        display: inline;
+    }
+    h1.nosotros_H1{
+        margin-left: 146px;
+    }
+    h1.woodplace {
+        padding-right: 530px;
+    }
+    img.img2 {
+        margin-left: 875px;
+    }
+}
+}
+/*Inicia Responsive Quienes somos 1579px*/
+@media only screen and (min-width: 1579px)
+{
+.nosotros{
+    h1{
+        display: inline;
+    }
+    h1.nosotros_H1{
+        margin-left: 140px;
+        padding-left: 33px;
+        padding-right: 390px;
+        margin-right: 182px;
+    }
+    h1.woodplace {
+        padding-right: 600px;
+    }
+    h1.nuestrosProductos {
+        margin-top: 110px;
+        margin-right: 695px;
+    }
+    h2.text2_productos {
+        margin-right: 695px;
+    }
+    img.img2 {
+        margin-left: 875px;
+        margin-top: -560px;
+        width: 540px;
+    }
+}
+}
+
+/*Inicia Responsive Quienes somos 1600px*/
+@media only screen and (min-width: 1600px)
 {
 .header h1{
     margin: 30px;
@@ -758,7 +807,6 @@ ul.nav {
     }
 }
 }
-
 /*Inicia Responsive Quienes somos 2560px*/
 @media only screen and (min-width: 2560px)
 {

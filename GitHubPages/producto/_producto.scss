@@ -500,14 +500,71 @@ ul.nav {
     }
 }
 }
+/*Inicia Responsive Producto 1447px*/
 @media only screen and (min-width: 1447px)
 {
 .galeria{
+    max-width: 100%;
+    height: auto;
+}
+}
+
+/*Inicia Responsive Producto 1700px*/
+@media only screen and (min-width: 1700px)
+{
+.galeria{
+    display: grid;
+    text-align: center;
     margin-left: 100px;
-    width: 1700px;
-    height: 900px; 
+    width: 1280px;
+    height: 750px;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(4, 200px);  
+    grid-template-areas: 
+    "img1 img1 img2 img3"
+    "img1 img1 img2 img4"
+    "img5 img6 img7 img8"
+    "img9 img9 img10 img10";                    
+    grid-gap: 15px;
+    padding: 15px;   
+}
+.ofertaCaoba h1 {
+    margin-top: 10%;
+}
+.ofertaCedro h1 {
+    margin-top: 10%;
+}
+.ofertaNogal h1 {
+    margin-top: 10%;
+}
+.ofertaPino h1 {
+    margin-top: 10%;
+}
+.ofertaArce h1 {
+    margin-top: 10%;
+}
+.footer{
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 5px;
+    h1{
+        padding: 50px;
+        margin-left: -50px;
+        margin-top: 0px;
+        position: absolute; 
+    }
+}
+.redes{
+    margin-top: -56px;
+    i{
+        margin: 0px;
+        padding: 50px;
+        position:  relative; 
+        font-size: 50px;
+    }
 }
 }
+
 /*Inicia Responsive Quienes somos 2560px*/
 @media only screen and (min-width: 2560px)
 {

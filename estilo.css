@@ -1698,17 +1698,34 @@ ul.nav li {
 /* Inicia Responsive Inicio 1446px */
 @media only screen and (min-width: 1446px) {
   .frase .galeria-inicio {
-    margin-left: 350px;
+    margin-left: 8%;
   }
   .productos_destacados h1 {
-    margin: 30px;
-    margin-left: 30px;
-    margin-right: 20px;
-    padding-left: 600px;
-    padding-right: 710px;
-    text-align: center;
-    font-size: 40px;
-    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 22%;
+    padding-right: 35%;
+  }
+  .galeria-inicio {
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 1400px;
+    height: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    grid-template-areas: "img1-i img2-i img3-i img4-i";
+  }
+}
+/* Inicia Responsive Inicio 1700px */
+@media only screen and (min-width: 1700px) {
+  .frase .galeria-inicio {
+    margin-left: 20%;
+  }
+  .productos_destacados h1 {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 30%;
+    padding-right: 35%;
   }
   .galeria-inicio {
     margin-left: 230px;
@@ -2279,11 +2296,61 @@ ul.nav li {
     font-size: 50px;
   }
 }
+/*Inicia Responsive Producto 1447px*/
 @media only screen and (min-width: 1447px) {
   .galeria {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*Inicia Responsive Producto 1700px*/
+@media only screen and (min-width: 1700px) {
+  .galeria {
+    display: grid;
+    text-align: center;
     margin-left: 100px;
-    width: 1700px;
-    height: 900px;
+    width: 1280px;
+    height: 750px;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: "img1 img1 img2 img3" "img1 img1 img2 img4" "img5 img6 img7 img8" "img9 img9 img10 img10";
+    grid-gap: 15px;
+    padding: 15px;
+  }
+  .ofertaCaoba h1 {
+    margin-top: 10%;
+  }
+  .ofertaCedro h1 {
+    margin-top: 10%;
+  }
+  .ofertaNogal h1 {
+    margin-top: 10%;
+  }
+  .ofertaPino h1 {
+    margin-top: 10%;
+  }
+  .ofertaArce h1 {
+    margin-top: 10%;
+  }
+  .footer {
+    text-align: center;
+    padding-left: 800px;
+    margin-top: 5px;
+  }
+  .footer h1 {
+    padding: 50px;
+    margin-left: -50px;
+    margin-top: 0px;
+    position: absolute;
+  }
+  .redes {
+    margin-top: -56px;
+  }
+  .redes i {
+    margin: 0px;
+    padding: 50px;
+    position: relative;
+    font-size: 50px;
   }
 }
 /*Inicia Responsive Quienes somos 2560px*/
@@ -3569,8 +3636,50 @@ ul.nav li {
     font-size: 50px;
   }
 }
-/*Inicia Responsive Quienes somos 1447px en adelante */
-@media only screen and (min-width: 1447px) {
+/*Inicia Responsive Quienes somos 1517px*/
+@media only screen and (min-width: 1517px) {
+  .nosotros h1 {
+    display: inline;
+  }
+  .nosotros h1.nosotros_H1 {
+    margin-left: 146px;
+  }
+  .nosotros h1.woodplace {
+    padding-right: 530px;
+  }
+  .nosotros img.img2 {
+    margin-left: 875px;
+  }
+}
+/*Inicia Responsive Quienes somos 1579px*/
+@media only screen and (min-width: 1579px) {
+  .nosotros h1 {
+    display: inline;
+  }
+  .nosotros h1.nosotros_H1 {
+    margin-left: 140px;
+    padding-left: 33px;
+    padding-right: 390px;
+    margin-right: 182px;
+  }
+  .nosotros h1.woodplace {
+    padding-right: 600px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 110px;
+    margin-right: 695px;
+  }
+  .nosotros h2.text2_productos {
+    margin-right: 695px;
+  }
+  .nosotros img.img2 {
+    margin-left: 875px;
+    margin-top: -560px;
+    width: 540px;
+  }
+}
+/*Inicia Responsive Quienes somos 1600px*/
+@media only screen and (min-width: 1600px) {
   .header h1 {
     margin: 30px;
     margin-bottom: 0;
@@ -4013,6 +4122,64 @@ ul.nav li {
   .contacto iframe {
     margin-left: 650px;
     margin-top: -375px;
+    width: 765px;
+    height: 365px;
+  }
+  .contacto h2.contacto {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 800px;
+    margin-top: -80px;
+  }
+  .contacto h2.ubicacion {
+    font-size: 20px;
+    margin-right: 800px;
+  }
+  .contacto h2.mail {
+    font-size: 20px;
+    margin-right: 800px;
+    margin-top: -500px;
+  }
+  .contacto h2.num {
+    margin-right: 800px;
+  }
+  .redes {
+    margin-top: -56px;
+  }
+  .redes i {
+    margin: 40px;
+    padding: 50px;
+    font-size: 50px;
+  }
+}
+/*Inicia Responsive Contacto 1700px en adelante*/
+@media only screen and (min-width: 1800px) {
+  .contacto h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+  }
+  .contacto input {
+    padding: 20px;
+    text-align: left;
+    margin: 30px;
+    padding-right: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  .contacto input.button.button_contacto {
+    margin: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 5px;
+  }
+  .contacto iframe {
+    margin-left: 650px;
+    margin-top: -375px;
     margin-bottom: 100px;
     width: 630px;
     height: 365px;
@@ -4028,19 +4195,13 @@ ul.nav li {
     margin-bottom: 520px;
   }
   .contacto h2.ubicacion {
-    font-size: 20px;
-    padding-top: 5px;
-    padding-right: 0%;
-    padding-left: 5px;
-    padding-right: 5%;
+    padding-left: 10px;
+    padding-right: 100px;
     margin-top: -480px;
-    margin-left: 68%;
-    margin-bottom: 520px;
+    margin-right: 30px;
+    margin-left: 1303px;
   }
   .contacto h2.mail {
-    font-size: 20px;
-    padding-top: 5px;
-    padding-right: 0%;
     padding-left: 5px;
     margin-right: 27px;
     margin-top: -480px;
@@ -4048,13 +4209,11 @@ ul.nav li {
     margin-bottom: 520px;
   }
   .contacto h2.num {
-    padding-top: 5px;
     padding-right: 0%;
     padding-left: 5px;
     margin-right: 27px;
     margin-top: -480px;
     margin-left: 68%;
-    margin-bottom: 500px;
   }
   .redes {
     margin-top: -56px;
