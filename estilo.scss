@@ -75,6 +75,7 @@ ul.nav {
 
 /* .galeria-inicio sirve para acomodar las cuatro(4) imagenes primeras con un sistema de grid, ademas de que le da un filtro gris y con el hover le devuelvo el color a las img y les aumenta minimamente la escala*/
 .galeria-inicio{
+    margin-left:300px ;
     display: grid;
     text-align: center;
     margin-left: 100px;
@@ -330,9 +331,9 @@ ul li.img-cedro
 }
 /*.galeria modifica el posicionamiento de las img que estan debajo los tipos de madera*/
 .galeria{
+    margin-left: 600px;
     display: grid;
     text-align: center;
-    margin-left: 100px;
     width: 1700px;
     height: 900px; 
     grid-template-columns: repeat(4, 1fr);

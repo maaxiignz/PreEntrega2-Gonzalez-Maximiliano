@@ -3,19 +3,12 @@
 {
 .contacto{
     h1{
-        padding: 20px;
-        margin: 30px;
         margin-right: 0px;
-        border-radius: 20px;
     }
     input {
         padding-right: 78px;
     }
     iframe {
-        display: inline;
-        margin-left: 30px;
-        margin-top: 4px;
-        margin-bottom: 100px;
         width: 290px;
         height: 304px;
     }
@@ -28,7 +21,6 @@
     }
     h2.ubicacion {
         margin-left: 30px;
-        margin-right: 0px;
         margin-top: -500px;
         border-radius: 10px;
         font-size: 19px;
@@ -46,12 +38,8 @@
         margin-right: 0px;
         margin-top: -500px;
         border-radius: 10px;
-        font-size: 24px;
         letter-spacing: 4px;
     }
-.footer {
-    margin-top: 800px;
-}
 }
 }
 
@@ -59,60 +47,60 @@
 @media only screen and (min-width: 375px)
 {
 .contacto{
+    h1 {
+        margin-right: 30px;
+    }
     input {
         padding-right: 100px;
     }
     iframe {
-        display: inline;
-        margin-left: 30px;
-        margin-top: 4px;
-        margin-bottom: 100px;
         width: 315px;
         height: 304px;
     }
     h2.contacto {
-        border-radius: 10px;
         padding: 5px;
         margin-right: 30px;
-        margin-top: -85px;
-        margin-left: 30px;
     }
     h2.ubicacion {
-        margin-left: 30px;
         margin-right: 30px;
-        margin-top: -500px;
-        border-radius: 10px;
-        font-size: 19px;
     }
     h2.mail {
-        margin-left: 30px;
         margin-right: 30px;
-        margin-top: -500px;
-        border-radius: 10px;
-        font-size: 18px;
     }
     h2.num {
-        margin-left: 30px;
         margin-right: 30px;
-        margin-top: -500px;
-        border-radius: 10px;
         font-size: 20px;
         letter-spacing: 7px;
     }
-.footer {
-    margin-top: 800px;
 }
+.footer {
+    padding-bottom: 1px;
 }
 }
 /*Inicia Responsive Quienes Somos 425px*/
 @media only screen and (min-width: 425px)
 {
-    .contacto h1 {
+.contacto{
+    h1 {
         padding: 20px;
         margin: 30px;
         margin-right: 30px;
         border-radius: 20px;
     }
+    input {
+        padding-right: 150px;
+    }
+    iframe {
+        width: 365px;
+        height: 304px ;
+    }
+}
+.footer {
+    padding-bottom: 2px;
+}
+.redes {
+    padding-bottom: 2px;
+}
 }
 /*Inicia Responsive Contacto 480px*/
 @media only screen and (min-width: 480px)
@@ -132,6 +120,13 @@
 }
 .footer {
     margin-top: 850px;
+    padding-bottom: 6px;
+    h1{
+        padding-bottom: 76px;
+    }
+}
+.redes {
+    padding-bottom: 4px;
 }
 }
 /*Inicia Responsive Contacto 768px*/
@@ -167,6 +162,9 @@
         letter-spacing: 4px;
     }
     }
+.footer {
+    padding-bottom: 5px;
+}
 }
 
 /*Inicia Responsive Contacto 1024px*/
@@ -196,6 +194,12 @@
         font-size: 25px;
     }
     }
+.footer{
+    padding-bottom: 6px;
+}
+.redes {
+    padding-bottom: 4px;
+}
 }
 
 /*Inicia Responsive Contacto 1440px*/
@@ -214,7 +218,10 @@
     }
 }
 .footer {
-    padding-bottom: 0px;
+    padding-bottom: 6px;
+}
+.redes {
+    padding-bottom: 17px;
 }
 }
 
@@ -292,7 +299,6 @@
         margin-bottom: 500px;
     }
 }
-
 .redes{
     margin-top: -56px;
     i{
@@ -300,5 +306,45 @@
         padding: 50px;
         font-size: 50px;
     }
+}
+}
+
+/*Inicia Responsive Quienes somos 2560px*/
+@media only screen and (min-width: 2560px)
+{
+.contacto{
+    h2.contacto {
+        font-size: 38px;
+        margin-top: -570px;
+        margin-left: 1651px;
+    }
+    h2.ubicacion {
+        font-size: 33px;
+        padding-right: 10px;
+        margin-left: 1651px;
+    }
+    h2.mail {
+        font-size: 33px;
+        margin-left: 1651px;
+    }
+    h2.num {
+        margin-left: 1651px;
+        font-size: 39px;
+    }
+    input {
+        font-size: 33px;
+    }
+    iframe {
+        margin-left: 875px;
+        margin-top: -475px;
+        width: 765px;
+        height: 465px;
+    }
+}
+.footer {
+    padding-bottom: 41px;
+}
+.redes i{
+    font-size: 87px;
 }
 }

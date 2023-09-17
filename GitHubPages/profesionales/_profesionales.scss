@@ -3,7 +3,6 @@
 {
 .profesionales{
     h1 {
-        text-align: center;
         font-size: 25px;
         margin-right: 30px;
         margin-left: 34px;
@@ -16,7 +15,6 @@
         margin-left: 30px;
         margin-right: 0px;
         padding: 15px;
-        padding-right: 0px;
     }
     img.img1_profesionales {
         margin-top: 360px;
@@ -28,7 +26,6 @@
         margin-top: 230px;
         margin-left: 30px;
         margin-right: -19px;
-        border-radius: 20px;
         padding: 10px;
         padding-left: 22px;
     }
@@ -49,14 +46,11 @@
 .trabajaConNosotros{
     h2 {
         margin-top: 465px;
-        font-size: 25px;
         margin-left: 30px;
         margin-right: -20px;
         border-radius: 10px;
     }
     h3 {
-        text-align: center;
-        margin-top: 20px;
         font-size: 27px;
         padding: 10px;
         margin-left: 30px;
@@ -65,7 +59,6 @@
     }
     input.nya_trabajaConNosotros {
         margin-left: 31px;
-        margin-top: 30px;
         font-size: 24px;
     }
     input.prof_trabajaConNosotros {
@@ -112,112 +105,93 @@
         border-radius: 5px;;
     }
     h2.text1_profesionales {
-        text-transform: uppercase;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border-radius: 20px;
-        padding: 10px;
+    margin-right: 30px;
+    padding: 10px;
     }
     img.img1_profesionales {
         text-align: center;
         margin-top: 330px;
-        margin-left: 30px;
+        margin-left: 40px;
         height: 200px;
         width: 295px;
     }
     h2.text2_profesionales {
-        text-transform: uppercase;
         margin-top: 270px;
-        margin-left: 30px;
         margin-right: 30px;
-        border-radius: 20px;
         padding: 10px;
     }
     img.img2_profesionales {
-        text-align: center;
         margin-top: 660px;
-        margin-left: 30px;
-        height: 200px;
+        margin-left: 40px;
         width: 295px;
     }
     img.img3_profesionales {
-        text-align: center;
-        margin-top: 255px;
-        height: 200px;
-        width: 295px;
-        margin-left: 30px;
-        border-radius: 20px;
+    margin-top: 255px;
+    width: 295px;
+    margin-left: 40px;
     }
 }
 .trabajaConNosotros{
     h2 {
-        text-align: center;
-        margin-top: 490px;
-        font-size: 25px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border-radius: 10px;
+    margin-top: 490px;
+    margin-right: 30px;
     }
     h3 {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border-radius: 10px;
-    }
-    input.nya_trabajaConNosotros {
-        margin-left: 31px;
-        margin-top: 30px;
-        font-size: 24px;
-    }
-    input.prof_trabajaConNosotros {
-        margin-left: 30px;
-        margin-top: 80px;
-        font-size: 24px;
-    }
-    input.ciudad_trabajaConNosotros {
-        margin-left: 31px;
-        margin-top: 130px;
-        padding-right: 10px;
-        font-size: 24px;
-    }
-    input.mail_trabajaConNosotros {
-        margin-left: 30px;
-        margin-top: 180px;
-        padding-right: 10px;
-        font-size: 24px;
-    }
-    input.tel_trabajaConNosotros {
-        margin-left: 30px;
-        margin-top: 230px;
-        padding-right: 10px;
-        font-size: 24px;
-    }
-    input.button_trabajaConNosotros {
-        margin-left: 30px;
-        margin-top: 280px;
-        padding-right: 10px;
-        font-size: 25px;
+    margin-right: 30px;
     }
 }
 }
 /*Inicia Responsive Profesionales 425px*/
 @media only screen and (min-width: 425px)
 {
-    .profesionales img.img1_profesionales {
+.profesionales{
+    img.img1_profesionales {
         margin-top: 310px;
         margin-left: 30px;
-        width: 360px;
+        width: 355px;
     }
-    .profesionales img.img2_profesionales {
+    img.img2_profesionales {
         margin-top: 613px;
-        width: 360px;
+        width: 355px;
     }
-    .profesionales img.img3_profesionales {
-        width: 360px;
+    img.img3_profesionales {
+        width: 355px;
     }
+}
+.trabajaConNosotros{
+    input.nya_trabajaConNosotros {
+        padding-right: 60px;
+    }
+    input.prof_trabajaConNosotros {
+        padding-right: 60px;
+    }
+    input.ciudad_trabajaConNosotros {
+        padding-right: 60px;
+    }
+    input.mail_trabajaConNosotros {
+        padding-right: 60px;
+    }
+    input.tel_trabajaConNosotros {
+        padding-right: 60px;
+    }
+}
+.footer {
+    padding-bottom: 5px;
+}
+.footer h1 {
+    margin-left: 20px;
+    padding-right: 78px;
+    padding-bottom: 75px;
+}
+.redes {
+    padding-bottom: 2px;
+    i {
+        margin-top: 100px;
+    }
+}
+.footer-profesionales {
+    padding-bottom: 4px;
+}
 }
 /*Inicia Responsive Profesionales 480px*/
 @media only screen and (min-width: 480px)
@@ -225,41 +199,39 @@
 .profesionales{
     img.img1_profesionales {
         margin-top: 280px;
-        height: 200px;
         width: 400px;
     }
     img.img2_profesionales {
         margin-top: 555px;
-        margin-left: 30px;
-        height: 200px;
         width: 400px;
     }
     img.img3_profesionales {
         margin-top: 255px;
-        height: 200px;
         width: 400px;
     }
 }
-.trabajaConNosotros input{
-    padding-right: 95px;
-}
-.trabajaConNosotros input.prof_trabajaConNosotros {
-    padding-right: 95px;
-}
-.trabajaConNosotros input.ciudad_trabajaConNosotros {
-    padding-right: 95px;
-}
-.trabajaConNosotros input.mail_trabajaConNosotros {
-    padding-right: 95px;
-}
-.trabajaConNosotros input.tel_trabajaConNosotros {
-    padding-right: 95px;
-}
-.trabajaConNosotros input.button_trabajaConNosotros {
-    padding-right: 50px;
-}
+.trabajaConNosotros{
+    input.nya_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    input.prof_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    input.ciudad_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    input.mail_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    input.tel_trabajaConNosotros {
+        padding-right: 95px;
+    }
+    input.button_trabajaConNosotros {
+        padding-right: 50px;
+    }
 }
 
+}
 /*Inicia Responsive Profesionales 768px*/
 @media only screen and (min-width: 768px)
 {
@@ -269,20 +241,17 @@
     }
     img.img1_profesionales {
         margin-top: 165px;
-        height: 200px;
         width: 490px;
         margin-left: 125px;
     }
     img.img2_profesionales{
         margin-top: 445px;
         margin-left: 30px;
-        height: 200px;
         width: 490px;
         margin-left: 125px;
     }
     img.img3_profesionales{
         margin-top: 255px;
-        height: 200px;
         width: 490px;
         margin-left: 125px;
     }
@@ -317,6 +286,9 @@
     input.button_trabajaConNosotros {
         font-size: 30px;
     }
+}
+.redes {
+    padding-bottom: 4px;
 }
 }
 /*Inicia Responsive Profesionales 1024px*/
@@ -355,7 +327,6 @@
 }
 .trabajaConNosotros{
     h2 {
-        font-size: 40px;
         border-radius: 20px;
     }
     h3 {
@@ -401,6 +372,9 @@
 .footer{
     margin-top: 400px;
 }
+.redes {
+    padding-bottom: 5px;
+}
 }
 
 /*Inicia Responsive Profesionales 1440px*/
@@ -413,10 +387,8 @@
     }
     h2.text1_profesionales {
         margin-left: 700px;
-        margin-top: 75px;
     }
     img.img1_profesionales {
-        margin-top: 20px;
         height: 280px;
         width: 600px;
     }
@@ -425,7 +397,6 @@
         margin-right: 705px;
     }
     img.img2_profesionales {
-        margin-top: 30px;
         margin-left: 775px;
         height: 280px;
         width: 600px;
@@ -439,8 +410,6 @@
 }
 .trabajaConNosotros{
     h2 {
-        font-size: 40px;
-        border-radius: 20px;
         margin-top: 570px;
     }
     input.nya_trabajaConNosotros {
@@ -476,6 +445,9 @@
         margin-left: 205px;
     }
 }
+.redes{
+    padding-bottom: 18px;
+}
 }
 
 /*Inicia Responsive Profesionales 1446px*/
@@ -495,6 +467,94 @@
         position: absolute;
         object-fit: cover;
     background-size: 100% 100%;
+    }
+    img.img1_profesionales{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 105px;
+    } 
+    h2.text1_profesionales{
+        margin-top: 100px;
+        margin-left: 785px;
+        margin-right: 100px;
+        padding: 30px;
+    }
+    img.img2_profesionales{
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 735px;
+        width: 600px;
+        height: 400px;
+    }
+    h2.text2_profesionales{
+        margin-top: 140px;
+        margin-left: 90px;
+        margin-right: 770px;
+        padding: 30px;
+    }
+    img.img3_profesionales{
+        margin-top: 150px;
+        width: 800px;
+        height: 400px;
+        margin-left: 320px;
+    }
+}
+.trabajaConNosotros{
+    h2{
+        margin-top: 600px;
+        font-size: 40px;
+    }
+    h3{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    input{
+        margin-left: 50px;
+        margin-top:10px;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+    input.nya_trabajaConNosotros{
+        margin-left: 30px;
+        padding-right: 240px;
+    }
+    input.prof_trabajaConNosotros{
+        margin-left: 745px;
+        padding-right: 260px;
+    }
+    input.ciudad_trabajaConNosotros{
+        margin-left: 30px;
+        padding-right: 975px;
+        font-size: 30px;
+    }
+    input.mail_trabajaConNosotros{
+        margin-left: 30px;
+        padding-right: 975px;
+        font-size: 30px;
+    }
+    input.tel_trabajaConNosotros{
+        margin-left: 30px;
+        padding-right: 975px;
+        font-size: 30px;
+    }
+    input.button_trabajaConNosotros{
+        margin-left: 30px;
+        padding-right: 20px;
+        font-size: 40px;
+    } 
+}
+}
+/*Inicia Responsive Profesionales 1447px*/
+@media only screen and (min-width: 1447px)
+{
+.profesionales{
+    h1{
+        text-align: center;
+        font-size: 40px;
+        border-radius: 20px;
     }
     img.img1_profesionales{
         text-align: center;
@@ -592,5 +652,67 @@
         padding-right: 20px;
         font-size: 40px;
     } 
+}
+}
+/*Inicia Responsive Quienes somos 2560px*/
+@media only screen and (min-width: 2560px)
+{
+.profesionales{
+    h1 {
+        font-size: 95px;
+    }
+    img.img1_profesionales {
+        margin-left: 184px;
+        width: 705px;
+        height: 445px;
+    }
+    h2.text1_profesionales {
+        margin-left: 1040px;
+        font-size: 45px;
+    }
+    img.img2_profesionales {
+        margin-top: 115px;
+        margin-left: 1517px;
+        width: 822px;
+        height: 562px;
+        }
+    h2.text2_profesionales {
+    margin-right: 1355px;
+    font-size: 45px;
+    }
+    img.img3_profesionales {
+        margin-left: 849px;
+    }
+}
+.trabajaConNosotros{
+    input.nya_trabajaConNosotros{
+    font-size: 50px;
+    }
+    input.prof_trabajaConNosotros{
+        font-size: 50px;
+        margin-left: 1345px;
+    }
+    input.ciudad_trabajaConNosotros{
+        margin-top: 95px;
+        font-size: 50px;
+        padding-right: 1343px;
+    }
+    input.mail_trabajaConNosotros{
+        font-size: 50px;
+        margin-top: 175px;
+        padding-right: 1343px;
+    }
+    input.tel_trabajaConNosotros{
+        font-size: 50px;
+        margin-top: 250px;
+        padding-right: 1343px;
+    }
+    input.button_trabajaConNosotros{
+        font-size: 50px;
+        margin-top: 350px;
+    } 
+}
+.footer {
+   padding-bottom: 3px;
 }
 }

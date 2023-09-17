@@ -60,7 +60,7 @@ ul.nav {
 }
 .footer{
     padding-left: 18%;
-    margin-top: 1879px;
+    margin-top: 1900px;
     i{
         padding:0;
         margin-top: 100px;
@@ -224,10 +224,8 @@ ul.nav {
 @media only screen and (min-width: 768px)
 {
 .galeria {
-    margin-top: -30px;
     margin-left: 35px;
     width: 670px;
-    height: 300px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 200px);
     grid-template-areas:
@@ -273,7 +271,6 @@ ul.nav {
 }
 .galeria {
     width: 905px;
-    height: 300px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 200px);  
     grid-template-areas: 
@@ -404,6 +401,7 @@ ul.opciones {
 .footer{
     text-align: center;
     padding-left: 800px;
+    padding-bottom: 1px;
     margin-top: 600px;
     h1{
         margin-left: -290px;
@@ -419,7 +417,6 @@ ul.opciones {
     }
 }
 }
-
 /*Inicia Responsive Producto 1446px*/
 
 @media only screen and (min-width: 1446px)
@@ -469,9 +466,9 @@ ul.nav {
 .galeria{
     display: grid;
     text-align: center;
-    margin-left: 100px;
-    width: 1700px;
-    height: 900px; 
+    margin-left: 60px;
+    width: 1280px;
+    height: 750px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 200px);  
     grid-template-areas: 
@@ -501,5 +498,33 @@ ul.nav {
         position:  relative; 
         font-size: 50px;
     }
+}
+}
+@media only screen and (min-width: 1447px)
+{
+.galeria{
+    margin-left: 100px;
+    width: 1700px;
+    height: 900px; 
+}
+}
+/*Inicia Responsive Quienes somos 2560px*/
+@media only screen and (min-width: 2560px)
+{
+.producto h1 {
+font-size: 73px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.galeria {
+    margin-left: 30px;
+    grid-template-columns: repeat(5, 451px);
+    grid-template-rows: repeat(3, 280px);
+    grid-template-areas:
+    "img1 img2 img2 img3 img3"
+    "img4 img4 img5 img5 img6"
+    "img7 img8 img8 img9 img10";
+    grid-gap: 40px;
+    padding: 40px;
 }
 }
