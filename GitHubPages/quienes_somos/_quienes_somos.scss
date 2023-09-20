@@ -646,8 +646,8 @@ ul.nav {
     }
 }
 }
-/*Inicia Responsive Quienes somos 1579px*/
-@media only screen and (min-width: 1579px)
+/*Inicia Responsive Quienes somos 1520px*/
+@media only screen and (min-width: 1520px)
 {
 .nosotros{
     h1{
@@ -718,30 +718,14 @@ ul.nav {
         display: inline;
     }
     h1.nosotros_H1{
-        text-align: left;
-        margin-left: 300px;
-        margin-bottom: 40px;
-        margin-right: 1000px;
-        padding: 10px;
-        padding-right: 415px;
-        border-radius: 20px;
+        margin-left: 100px;
     }
     img.img1_nosotros{
-        margin-left: 300px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        height: 700px;
-        width: 600px;
-        border-radius: 20px;
+        margin-left: 100px;
     }
     h1.woodplace{
-        text-align: center;
-        display: flex;
-        margin-top: -700px;
-        margin-left: 950px;
-        margin-right: 350px;
-        border-radius: 20px;
-        padding: 10px;
+        padding-right: 685px;
+        margin-left: 746px;
     }
     h1.nuestrosProductos{
         margin-top: -1000px;
@@ -750,41 +734,22 @@ ul.nav {
         border-radius: 20px;
     }
     h1.nuestrosProductos{
-        text-align: center;
-        color: white;
-        display: flex;
-        margin-top: 20px;
-        margin-left: 300px;
-        margin-right: 950px;
-        border-radius: 20px;
-        padding-right: -500px;
+        margin-top: 180px;
+        margin-left: 100px;
+        margin-right: 757px;
     }
     h2.text1_nosotros{
-        display: flex;
-        margin-left: 950px;
-        margin-top: 60px;
-        margin-right: 350px;
-        padding: 10px;
-        border-radius: 20px;
-        font-size: 25px;
+        margin-left: 746px;
+        margin-top: 23px;
     }
     h2.text2_productos{
-        display: flex;
-        margin-left: 300px;  
-        margin-top: 60px;
-        margin-right: 950px;
-        padding: 20px;
-        border-radius: 20px;
-        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 757px;
     }
     img.img2{
-    
-        margin-left: 910px;
-        margin-top: -520px;
-        margin-bottom: 20px;
-        height: 700px;
+        margin-left: 820px;
+        margin-top: -575px;
         width: 560px;
-        border-radius: 20px;
     }
 }
 .footer{
@@ -805,6 +770,135 @@ ul.nav {
         position:  relative; 
         font-size: 50px;
     }
+}
+}
+
+/*Inicia Responsive Quienes somos 1686px*/
+@media only screen and (min-width: 1675px)
+{
+    .nosotros{
+        h1.nuestrosProductos {
+            margin-top: 219px;
+            margin-right: 845px;
+        }
+        h2.text2_productos {
+            margin-left: 100px;
+            margin-right: 845px;
+        }
+    }
+}
+/*Inicia Responsive Quienes somos 1686px*/
+@media only screen and (min-width: 1686px)
+{
+    .nosotros{
+        h1{
+            display: inline;
+        }
+        h1.nosotros_H1{
+            margin-left: 160px;
+        }
+        img.img1_nosotros{
+            margin-left: 100px;
+        }
+        h1.woodplace{
+            padding-right: 685px;
+            margin-left: 746px;
+        }
+        h1.nuestrosProductos{
+            margin-top: 180px;
+        }
+        h2.text1_nosotros{
+            margin-left: 746px;
+            margin-top: 23px;
+            margin-right: 145px;
+        }
+        h2.text2_productos{
+            margin-left: 100px;
+            margin-right: 757px;
+        }
+        img.img2{
+            margin-left: 875px;
+        }
+    }
+}
+/*Inicia Responsive Quienes somos 1700px*/
+@media only screen and (min-width: 1700px)
+{
+    .nosotros{
+        h1.nosotros_H1{
+            margin-left: 170px;
+            
+        }
+        h1.nuestrosProductos {
+            margin-top: 225px;
+            margin-right: 845px;
+        }
+        h2.text2_productos {
+            margin-right: 845px;
+        }
+    }
+}
+/*Inicia Responsive Quienes somos 1700px*/
+@media only screen and (min-width: 1756px)
+{
+    .nosotros{
+        h1.woodplace {
+            padding-right: 760px;
+            margin-left: 746px;
+        }
+        h1.nosotros_H1{
+            margin-left: 250px;
+            
+        }
+        h1.nuestrosProductos {
+            margin-top: 225px;
+            margin-right: 940px;
+        }
+        h2.text2_productos {
+            margin-right: 940px;
+        }
+        img.img2 {
+            margin-left: 944px;
+            margin-top: -540px;
+        }
+    }
+}
+/*Inicia Responsive Quienes somos 1800px*/
+@media only screen and (min-width: 1800px)
+{
+    .nosotros{
+        h1.nosotros_H1{
+            margin-left: 300px;
+        }
+        h1.nuestrosProductos {
+            margin-top: 225px;
+            margin-right: 900px;
+        }
+        h2.text2_productos {
+            margin-left: 100px;
+            margin-right: 900px;
+        }
+        img.img2 {
+            margin-left: 870px;
+            margin-top: -590px;
+        }
+    }
+}
+/*Inicia Responsive Quienes somos 1900px*/
+@media only screen and (min-width: 1900px)
+{
+    .nosotros{
+        h1.nosotros_H1{
+            margin-left: 500px;
+            padding-left: 360px;
+        }
+        h1.nuestrosProductos {
+            margin-top: 260px;
+        }
+        img.img2 {
+            margin-left: 978px;
+            margin-top: -590px;
+        }
 }
 }
 /*Inicia Responsive Quienes somos 2560px*/
@@ -851,7 +945,7 @@ ul.nav {
     }
     h1.nosotros_H1{
         font-size: 90px;
-        margin-left: 170px;
+        margin-left: 300px;
     }
     img.img1_nosotros{
         margin-left: 170px;

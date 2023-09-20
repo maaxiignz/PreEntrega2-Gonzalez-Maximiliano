@@ -1725,7 +1725,7 @@ ul.nav li {
     margin-left: 3%;
     margin-right: 3%;
     padding-left: 30%;
-    padding-right: 35%;
+    padding-right: 32%;
   }
   .galeria-inicio {
     margin-left: 230px;
@@ -2090,8 +2090,8 @@ ul.nav li {
   }
   .galeria {
     width: 905px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(4, 60%);
     grid-template-areas: "img1 img1 img2 img3" "img1 img1 img2 img4" "img5 img6 img7 img8" "img9 img9 img10 img10";
   }
   .ofertaCaoba h1 {
@@ -2126,6 +2126,34 @@ ul.nav li {
     padding-right: 20px;
     position: relative;
     font-size: 40px;
+  }
+}
+/*Inicia Responsive Producto 1200px*/
+@media only screen and (min-width: 1200px) {
+  .nav a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+  ul.nav {
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  ul.nav li {
+    margin-left: 40px;
+    display: inline;
+    font-size: 20px;
+  }
+  .galeria {
+    margin-left: 4%;
+    width: 905px;
+    grid-template-columns: repeat(4, 28%);
+    grid-template-rows: repeat(4, 60%);
+    grid-template-areas: "img1 img1 img2 img3" "img1 img1 img2 img4" "img5 img6 img7 img8" "img9 img9 img10 img10";
   }
 }
 /*Inicia Responsive Producto 1440px*/
@@ -2309,9 +2337,7 @@ ul.nav li {
     display: grid;
     text-align: center;
     margin-left: 100px;
-    width: 1280px;
-    height: 750px;
-    grid-template-columns: repeat(4, 400px);
+    grid-template-columns: repeat(4, 29%);
     grid-template-rows: repeat(4, 200px);
     grid-template-areas: "img1 img1 img2 img3" "img1 img1 img2 img4" "img5 img6 img7 img8" "img9 img9 img10 img10";
     grid-gap: 15px;
@@ -2715,8 +2741,34 @@ ul.nav li {
     padding-bottom: 5px;
   }
 }
-/*Inicia Responsive Profesionales 1440px*/
-@media only screen and (min-width: 1440px) {
+/*Inicia Responsive Profesionales 1200px*/
+@media only screen and (min-width: 1200px) {
+  .profesionales img.img2_profesionales {
+    width: 425px;
+    margin-top: 3%;
+    margin-left: 805px;
+  }
+  .profesionales h2.text2_profesionales {
+    margin-top: 10%;
+    margin-right: 500px;
+    text-align: left;
+  }
+}
+/*Inicia Responsive Profesionales 1300px*/
+@media only screen and (min-width: 1300px) {
+  .profesionales img.img2_profesionales {
+    width: 425px;
+    margin-top: 3%;
+    margin-left: 890px;
+  }
+  .profesionales h2.text2_profesionales {
+    margin-top: 10%;
+    margin-right: 500px;
+    text-align: left;
+  }
+}
+/*Inicia Responsive Profesionales 1420px*/
+@media only screen and (min-width: 1420px) {
   .profesionales h1 {
     border-radius: 15px;
     font-size: 30px;
@@ -2883,59 +2935,26 @@ ul.nav li {
     border-radius: 20px;
   }
   .profesionales img.img1_profesionales {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 60px;
   }
   .profesionales h2.text1_profesionales {
-    text-transform: uppercase;
-    color: white;
-    margin-top: 100px;
-    margin-left: 900px;
-    margin-right: 100px;
-    border-radius: 20px;
-    padding: 30px;
+    margin-top: 65px;
+    margin-left: 742px;
   }
   .profesionales img.img2_profesionales {
     text-align: center;
-    margin-top: 60px;
-    margin-left: 1000px;
-    width: 600px;
-    height: 400px;
+    margin-top: 15px;
+    margin-left: 809px;
   }
   .profesionales h2.text2_profesionales {
-    text-transform: uppercase;
-    color: white;
-    margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 1000px;
+    margin-top: 90px;
+    margin-left: 57px;
+    margin-right: 689px;
+    padding-right: 89px;
     border-radius: 20px;
-    padding: 30px;
   }
   .profesionales img.img3_profesionales {
-    text-align: center;
-    margin-top: 150px;
-    width: 800px;
-    height: 400px;
-    margin-left: 600px;
-    border-radius: 20px;
-  }
-  .trabajaConNosotros h2 {
-    text-align: center;
-    margin-top: 600px;
-    font-size: 40px;
-    padding: 20px;
     margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 20px;
-  }
-  .trabajaConNosotros h3 {
-    margin-top: 20px;
-    font-size: 30px;
-    padding: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 20px;
   }
   .trabajaConNosotros input {
     margin-left: 850px;
@@ -2947,34 +2966,78 @@ ul.nav li {
     position: absolute;
   }
   .trabajaConNosotros input.nya_trabajaConNosotros {
-    margin-left: 300px;
-    font-size: 30px;
-    padding-right: 240px;
+    margin-left: 60px;
   }
   .trabajaConNosotros input.prof_trabajaConNosotros {
-    margin-left: 950px;
-    font-size: 30px;
-    padding-right: 295px;
+    margin-left: 775px;
   }
   .trabajaConNosotros input.ciudad_trabajaConNosotros {
-    margin-left: 300px;
-    padding-right: 945px;
-    font-size: 30px;
+    margin-left: 60px;
   }
   .trabajaConNosotros input.mail_trabajaConNosotros {
-    margin-left: 300px;
-    padding-right: 945px;
-    font-size: 30px;
+    margin-left: 60px;
   }
   .trabajaConNosotros input.tel_trabajaConNosotros {
-    margin-left: 300px;
-    padding-right: 945px;
-    font-size: 30px;
+    margin-left: 60px;
   }
   .trabajaConNosotros input.button_trabajaConNosotros {
-    margin-left: 300px;
-    padding-right: 20px;
-    font-size: 40px;
+    margin-left: 60px;
+  }
+}
+/*Inicia Responsive Profesionales 1700px*/
+@media only screen and (min-width: 1700px) {
+  .profesionales h2.text2_profesionales {
+    margin-top: 135px;
+    margin-left: 57px;
+    margin-right: 973px;
+    padding-right: 89px;
+  }
+  .profesionales img.img2_profesionales {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 900px;
+  }
+  .trabajaConNosotros input.prof_trabajaConNosotros {
+    margin-left: 930px;
+  }
+  .trabajaConNosotros input.ciudad_trabajaConNosotros {
+    padding-right: 1130px;
+  }
+  .trabajaConNosotros input.mail_trabajaConNosotros {
+    padding-right: 1130px;
+  }
+  .trabajaConNosotros input.tel_trabajaConNosotros {
+    padding-right: 1130px;
+  }
+}
+/*Inicia Responsive Quienes somos 1900px*/
+@media only screen and (min-width: 1900px) {
+  .profesionales h2.text2_profesionales {
+    margin-top: 170px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 30px;
+    margin-left: 1045px;
+  }
+  .profesionales img.img3_profesionales {
+    margin-left: 480px;
+  }
+  .trabajaConNosotros input.nya_trabajaConNosotros {
+    margin-left: 60px;
+    padding-right: 480px;
+  }
+  .trabajaConNosotros input.prof_trabajaConNosotros {
+    margin-left: 930px;
+    padding-right: 560px;
+  }
+  .trabajaConNosotros input.ciudad_trabajaConNosotros {
+    padding-right: 1430px;
+  }
+  .trabajaConNosotros input.mail_trabajaConNosotros {
+    padding-right: 1430px;
+  }
+  .trabajaConNosotros input.tel_trabajaConNosotros {
+    padding-right: 1430px;
   }
 }
 /*Inicia Responsive Quienes somos 2560px*/
@@ -3651,8 +3714,8 @@ ul.nav li {
     margin-left: 875px;
   }
 }
-/*Inicia Responsive Quienes somos 1579px*/
-@media only screen and (min-width: 1579px) {
+/*Inicia Responsive Quienes somos 1520px*/
+@media only screen and (min-width: 1520px) {
   .nosotros h1 {
     display: inline;
   }
@@ -3717,30 +3780,14 @@ ul.nav li {
     display: inline;
   }
   .nosotros h1.nosotros_H1 {
-    text-align: left;
-    margin-left: 300px;
-    margin-bottom: 40px;
-    margin-right: 1000px;
-    padding: 10px;
-    padding-right: 415px;
-    border-radius: 20px;
+    margin-left: 100px;
   }
   .nosotros img.img1_nosotros {
-    margin-left: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 700px;
-    width: 600px;
-    border-radius: 20px;
+    margin-left: 100px;
   }
   .nosotros h1.woodplace {
-    text-align: center;
-    display: flex;
-    margin-top: -700px;
-    margin-left: 950px;
-    margin-right: 350px;
-    border-radius: 20px;
-    padding: 10px;
+    padding-right: 685px;
+    margin-left: 746px;
   }
   .nosotros h1.nuestrosProductos {
     margin-top: -1000px;
@@ -3749,40 +3796,22 @@ ul.nav li {
     border-radius: 20px;
   }
   .nosotros h1.nuestrosProductos {
-    text-align: center;
-    color: white;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 950px;
-    border-radius: 20px;
-    padding-right: -500px;
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-right: 757px;
   }
   .nosotros h2.text1_nosotros {
-    display: flex;
-    margin-left: 950px;
-    margin-top: 60px;
-    margin-right: 350px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 25px;
+    margin-left: 746px;
+    margin-top: 23px;
   }
   .nosotros h2.text2_productos {
-    display: flex;
-    margin-left: 300px;
-    margin-top: 60px;
-    margin-right: 950px;
-    padding: 20px;
-    border-radius: 20px;
-    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 757px;
   }
   .nosotros img.img2 {
-    margin-left: 910px;
-    margin-top: -520px;
-    margin-bottom: 20px;
-    height: 700px;
+    margin-left: 820px;
+    margin-top: -575px;
     width: 560px;
-    border-radius: 20px;
   }
   .footer {
     text-align: center;
@@ -3800,6 +3829,114 @@ ul.nav li {
     padding: 50px;
     position: relative;
     font-size: 50px;
+  }
+}
+/*Inicia Responsive Quienes somos 1686px*/
+@media only screen and (min-width: 1675px) {
+  .nosotros h1.nuestrosProductos {
+    margin-top: 219px;
+    margin-right: 845px;
+  }
+  .nosotros h2.text2_productos {
+    margin-left: 100px;
+    margin-right: 845px;
+  }
+}
+/*Inicia Responsive Quienes somos 1686px*/
+@media only screen and (min-width: 1686px) {
+  .nosotros h1 {
+    display: inline;
+  }
+  .nosotros h1.nosotros_H1 {
+    margin-left: 160px;
+  }
+  .nosotros img.img1_nosotros {
+    margin-left: 100px;
+  }
+  .nosotros h1.woodplace {
+    padding-right: 685px;
+    margin-left: 746px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 180px;
+  }
+  .nosotros h2.text1_nosotros {
+    margin-left: 746px;
+    margin-top: 23px;
+    margin-right: 145px;
+  }
+  .nosotros h2.text2_productos {
+    margin-left: 100px;
+    margin-right: 757px;
+  }
+  .nosotros img.img2 {
+    margin-left: 875px;
+  }
+}
+/*Inicia Responsive Quienes somos 1700px*/
+@media only screen and (min-width: 1700px) {
+  .nosotros h1.nosotros_H1 {
+    margin-left: 170px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 225px;
+    margin-right: 845px;
+  }
+  .nosotros h2.text2_productos {
+    margin-right: 845px;
+  }
+}
+/*Inicia Responsive Quienes somos 1700px*/
+@media only screen and (min-width: 1756px) {
+  .nosotros h1.woodplace {
+    padding-right: 760px;
+    margin-left: 746px;
+  }
+  .nosotros h1.nosotros_H1 {
+    margin-left: 250px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 225px;
+    margin-right: 940px;
+  }
+  .nosotros h2.text2_productos {
+    margin-right: 940px;
+  }
+  .nosotros img.img2 {
+    margin-left: 944px;
+    margin-top: -540px;
+  }
+}
+/*Inicia Responsive Quienes somos 1800px*/
+@media only screen and (min-width: 1800px) {
+  .nosotros h1.nosotros_H1 {
+    margin-left: 300px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 225px;
+    margin-right: 900px;
+  }
+  .nosotros h2.text2_productos {
+    margin-left: 100px;
+    margin-right: 900px;
+  }
+  .nosotros img.img2 {
+    margin-left: 870px;
+    margin-top: -590px;
+  }
+}
+/*Inicia Responsive Quienes somos 1900px*/
+@media only screen and (min-width: 1900px) {
+  .nosotros h1.nosotros_H1 {
+    margin-left: 500px;
+    padding-left: 360px;
+  }
+  .nosotros h1.nuestrosProductos {
+    margin-top: 260px;
+  }
+  .nosotros img.img2 {
+    margin-left: 978px;
+    margin-top: -590px;
   }
 }
 /*Inicia Responsive Quienes somos 2560px*/
@@ -3844,7 +3981,7 @@ ul.nav li {
   }
   .nosotros h1.nosotros_H1 {
     font-size: 90px;
-    margin-left: 170px;
+    margin-left: 300px;
   }
   .nosotros img.img1_nosotros {
     margin-left: 170px;
@@ -4152,7 +4289,7 @@ ul.nav li {
     font-size: 50px;
   }
 }
-/*Inicia Responsive Contacto 1700px en adelante*/
+/*Inicia Responsive Contacto 1800px*/
 @media only screen and (min-width: 1800px) {
   .contacto h1 {
     text-align: center;
@@ -4185,35 +4322,26 @@ ul.nav li {
     height: 365px;
   }
   .contacto h2.contacto {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-right: 20%;
-    padding-left: 5px;
-    margin-right: 27px;
+    padding-left: 13px;
+    margin-right: 22px;
     margin-top: -480px;
-    margin-left: 68%;
-    margin-bottom: 520px;
+    margin-left: 72%;
   }
   .contacto h2.ubicacion {
     padding-left: 10px;
-    padding-right: 100px;
     margin-top: -480px;
     margin-right: 30px;
     margin-left: 1303px;
   }
   .contacto h2.mail {
-    padding-left: 5px;
     margin-right: 27px;
     margin-top: -480px;
-    margin-left: 68%;
-    margin-bottom: 520px;
+    margin-left: 72.5%;
   }
   .contacto h2.num {
-    padding-right: 0%;
-    padding-left: 5px;
     margin-right: 27px;
     margin-top: -480px;
-    margin-left: 68%;
+    margin-left: 72.5%;
   }
   .redes {
     margin-top: -56px;

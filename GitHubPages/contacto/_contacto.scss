@@ -287,7 +287,7 @@
 }
 }
 
-/*Inicia Responsive Contacto 1700px en adelante*/
+/*Inicia Responsive Contacto 1800px*/
 @media only screen and (min-width: 1800px)
 {
 .contacto{
@@ -322,35 +322,26 @@
         height: 365px;
     }
     h2.contacto{
-        font-size: 20px;
-        padding-top: 10px;
-        padding-right: 20%;
-        padding-left: 5px;
-        margin-right: 27px;
+        padding-left: 13px;
+        margin-right: 22px;
         margin-top: -480px;
-        margin-left: 68%;
-        margin-bottom: 520px;
+        margin-left: 72%;
     }
     h2.ubicacion{
         padding-left: 10px;
-        padding-right:100px;
         margin-top: -480px;
         margin-right: 30px;
         margin-left: 1303px;
     }
     h2.mail{
-        padding-left: 5px;
         margin-right: 27px;
         margin-top: -480px;
-        margin-left: 68%;
-        margin-bottom: 520px;
+        margin-left: 72.5%;
     }
     h2.num{
-        padding-right: 0%;
-        padding-left: 5px;
         margin-right: 27px;
         margin-top: -480px;
-        margin-left: 68%;
+        margin-left: 72.5%;
     }
 }
 .redes{
