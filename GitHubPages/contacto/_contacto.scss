@@ -353,7 +353,21 @@
     }
 }
 }
-
+/*Inicia Responsive Contacto 1900px*/
+@media only screen and (min-width: 1900px)
+{
+    .contacto{
+        h2.contacto {
+            margin-left: 68.5%;
+        }
+    }
+    .contacto h2.mail {
+        margin-left: 68.5%;
+    }
+    .contacto h2.num {
+        margin-left: 68.5%;
+    }
+}
 /*Inicia Responsive Quienes somos 2560px*/
 @media only screen and (min-width: 2560px)
 {

@@ -2577,15 +2577,18 @@ ul.nav li {
 /*Inicia Responsive Profesionales 480px*/
 @media only screen and (min-width: 480px) {
   .profesionales img.img1_profesionales {
-    margin-top: 280px;
+    margin-top: 286px;
+    margin-left: 40px;
     width: 400px;
   }
   .profesionales img.img2_profesionales {
-    margin-top: 555px;
+    margin-top: 560px;
+    margin-left: 40px;
     width: 400px;
   }
   .profesionales img.img3_profesionales {
     margin-top: 255px;
+    margin-left: 40px;
     width: 400px;
   }
   .trabajaConNosotros input.nya_trabajaConNosotros {
@@ -2605,6 +2608,53 @@ ul.nav li {
   }
   .trabajaConNosotros input.button_trabajaConNosotros {
     padding-right: 50px;
+  }
+}
+/*Inicia Responsive Profesionales 552px*/
+@media only screen and (min-width: 520px) {
+  .profesionales img.img1_profesionales {
+    margin-top: 270px;
+    margin-left: 60px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 540px;
+    margin-left: 60px;
+  }
+  .profesionales img.img3_profesionales {
+    margin-top: 255px;
+    margin-left: 60px;
+    width: 400px;
+  }
+}
+/*Inicia Responsive Profesionales 552px*/
+@media only screen and (min-width: 520px) {
+  .profesionales img.img1_profesionales {
+    margin-top: 240px;
+    margin-left: 60px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 490px;
+    margin-left: 60px;
+  }
+  .profesionales img.img3_profesionales {
+    margin-top: 255px;
+    margin-left: 60px;
+    width: 400px;
+  }
+}
+/*Inicia Responsive Profesionales 735px*/
+@media only screen and (min-width: 735px) {
+  .profesionales img.img1_profesionales {
+    margin-top: 200px;
+    margin-left: 170px;
+  }
+  .profesionales img.img2_profesionales {
+    margin-top: 440px;
+    margin-left: 170px;
+  }
+  .profesionales img.img3_profesionales {
+    margin-left: 170px;
+    width: 400px;
   }
 }
 /*Inicia Responsive Profesionales 768px*/
@@ -2741,29 +2791,47 @@ ul.nav li {
     padding-bottom: 5px;
   }
 }
+/*Inicia Responsive Profesionales 1046*/
+@media only screen and (min-width: 1046px) {
+  .profesionales h2.text2_profesionales {
+    margin-top: 70px;
+    margin-right: 60%;
+  }
+}
 /*Inicia Responsive Profesionales 1200px*/
 @media only screen and (min-width: 1200px) {
   .profesionales img.img2_profesionales {
     width: 425px;
     margin-top: 3%;
-    margin-left: 805px;
+    margin-left: 60%;
   }
   .profesionales h2.text2_profesionales {
     margin-top: 10%;
-    margin-right: 500px;
+    margin-right: 50%;
     text-align: left;
   }
 }
 /*Inicia Responsive Profesionales 1300px*/
 @media only screen and (min-width: 1300px) {
+  .profesionales h2.text1_profesionales {
+    margin-left: 45%;
+    margin-right: 10%;
+    margin-top: 75px;
+  }
+  .profesionales img.img1_profesionales {
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 50%;
+    width: 40%;
+  }
   .profesionales img.img2_profesionales {
     width: 425px;
     margin-top: 3%;
-    margin-left: 890px;
+    margin-left: 52%;
   }
   .profesionales h2.text2_profesionales {
     margin-top: 10%;
-    margin-right: 500px;
+    margin-right: 50%;
     text-align: left;
   }
 }
@@ -2939,7 +3007,7 @@ ul.nav li {
   }
   .profesionales h2.text1_profesionales {
     margin-top: 65px;
-    margin-left: 742px;
+    margin-left: 50%;
   }
   .profesionales img.img2_profesionales {
     text-align: center;
@@ -2947,14 +3015,12 @@ ul.nav li {
     margin-left: 809px;
   }
   .profesionales h2.text2_profesionales {
-    margin-top: 90px;
-    margin-left: 57px;
-    margin-right: 689px;
-    padding-right: 89px;
-    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 50%;
+    padding-right: 8%;
   }
   .profesionales img.img3_profesionales {
-    margin-left: 300px;
+    margin-left: 30%;
   }
   .trabajaConNosotros input {
     margin-left: 850px;
@@ -2984,6 +3050,14 @@ ul.nav li {
     margin-left: 60px;
   }
 }
+/*Inicia Responsive Profesionales 1600px*/
+@media only screen and (min-width: 1600px) {
+  .profesionales h2.text2_profesionales {
+    margin-left: 5%;
+    margin-right: 57%;
+    padding-right: 2%;
+  }
+}
 /*Inicia Responsive Profesionales 1700px*/
 @media only screen and (min-width: 1700px) {
   .profesionales h2.text2_profesionales {
@@ -3008,6 +3082,21 @@ ul.nav li {
   }
   .trabajaConNosotros input.tel_trabajaConNosotros {
     padding-right: 1130px;
+  }
+}
+/*Inicia Responsive Profesionales 1800px*/
+@media only screen and (min-width: 1800px) {
+  .profesionales h2.text2_profesionales {
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 57%;
+  }
+  .profesionales h2.text1_profesionales {
+    margin-top: 65px;
+    margin-left: 44%;
+  }
+  .profesionales img.img1_profesionales {
+    margin-left: 7%;
   }
 }
 /*Inicia Responsive Quienes somos 1900px*/
@@ -4350,6 +4439,18 @@ ul.nav li {
     margin: 40px;
     padding: 50px;
     font-size: 50px;
+  }
+}
+/*Inicia Responsive Contacto 1900px*/
+@media only screen and (min-width: 1900px) {
+  .contacto h2.contacto {
+    margin-left: 68.5%;
+  }
+  .contacto h2.mail {
+    margin-left: 68.5%;
+  }
+  .contacto h2.num {
+    margin-left: 68.5%;
   }
 }
 /*Inicia Responsive Quienes somos 2560px*/
