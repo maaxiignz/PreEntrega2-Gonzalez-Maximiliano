@@ -237,58 +237,58 @@
 /*Inicia Responsive Profesionales 552px*/
 @media only screen and (min-width: 520px)
 {
-    .profesionales{
-        img.img1_profesionales {
-            margin-top: 270px;
-            margin-left: 60px;
-        }
-        img.img2_profesionales {
-            margin-top: 540px;
-            margin-left: 60px;
-        }
-        img.img3_profesionales {
-            margin-top: 255px;
-            margin-left: 60px;
-            width: 400px;
-        }
+.profesionales{
+    img.img1_profesionales {
+        margin-top: 270px;
+        margin-left: 60px;
     }
+    img.img2_profesionales {
+        margin-top: 540px;
+        margin-left: 60px;
+    }
+    img.img3_profesionales {
+        margin-top: 255px;
+        margin-left: 60px;
+        width: 400px;
+    }
+}
 }
 /*Inicia Responsive Profesionales 552px*/
 @media only screen and (min-width: 520px)
 {
-    .profesionales{
-        img.img1_profesionales {
-            margin-top: 240px;
-            margin-left: 60px;
-        }
-        img.img2_profesionales {
-            margin-top: 490px;
-            margin-left: 60px;
-        }
-        img.img3_profesionales {
-            margin-top: 255px;
-            margin-left: 60px;
-            width: 400px;
-        }
+.profesionales{
+    img.img1_profesionales {
+        margin-top: 240px;
+        margin-left: 60px;
     }
+    img.img2_profesionales {
+        margin-top: 490px;
+        margin-left: 60px;
+    }
+    img.img3_profesionales {
+        margin-top: 255px;
+        margin-left: 60px;
+        width: 400px;
+    }
+}
 }
 /*Inicia Responsive Profesionales 735px*/
 @media only screen and (min-width: 735px)
 {
-    .profesionales{
-        img.img1_profesionales {
-            margin-top: 200px;
-            margin-left: 170px;
-        }
-        img.img2_profesionales {
-            margin-top: 440px;
-            margin-left: 170px;
-        }
-        img.img3_profesionales {
-            margin-left: 170px;
-            width: 400px;
-        }
+.profesionales{
+    img.img1_profesionales {
+        margin-top: 200px;
+        margin-left: 170px;
     }
+    img.img2_profesionales {
+        margin-top: 440px;
+        margin-left: 170px;
+    }
+    img.img3_profesionales {
+        margin-left: 170px;
+        width: 400px;
+    }
+}
 }
 /*Inicia Responsive Profesionales 768px*/
 @media only screen and (min-width: 768px)
@@ -446,43 +446,43 @@
 }
 /*Inicia Responsive Profesionales 1200px*/
 @media only screen and (min-width: 1200px) {
-    .profesionales img.img2_profesionales {
+.profesionales img.img2_profesionales {
+    width: 425px;  
+    margin-top: 3%;  
+    margin-left: 60%; 
+}
+
+.profesionales h2.text2_profesionales {
+    margin-top: 10%;
+    margin-right: 50%;
+    text-align: left;  
+}
+}
+/*Inicia Responsive Profesionales 1300px*/
+@media only screen and (min-width: 1300px) {
+.profesionales{
+    h2.text1_profesionales {
+        margin-left: 45%;
+        margin-right: 10%;
+        margin-top: 75px;
+    }
+    img.img1_profesionales {
+        margin-top: 2%;
+        margin-left: 3%;
+        height: 50%;
+        width: 40%;
+    }
+    img.img2_profesionales {
         width: 425px;  
         margin-top: 3%;  
-        margin-left: 60%; 
+        margin-left: 52%;  
     }
-
-    .profesionales h2.text2_profesionales {
+    h2.text2_profesionales {
         margin-top: 10%;
         margin-right: 50%;
         text-align: left;  
     }
 }
-/*Inicia Responsive Profesionales 1300px*/
-@media only screen and (min-width: 1300px) {
-    .profesionales{
-        h2.text1_profesionales {
-            margin-left: 45%;
-            margin-right: 10%;
-            margin-top: 75px;
-        }
-        img.img1_profesionales {
-            margin-top: 2%;
-            margin-left: 3%;
-            height: 50%;
-            width: 40%;
-        }
-        img.img2_profesionales {
-            width: 425px;  
-            margin-top: 3%;  
-            margin-left: 52%;  
-        }
-        h2.text2_profesionales {
-            margin-top: 10%;
-            margin-right: 50%;
-            text-align: left;  
-        }
-    }
 }
 /*Inicia Responsive Profesionales 1420px*/
 @media only screen and (min-width: 1420px)
@@ -717,62 +717,62 @@
 /*Inicia Responsive Profesionales 1600px*/
 @media only screen and (min-width: 1600px)
 {
-    .profesionales{
-        h2.text2_profesionales{
-            margin-left: 5%;
-            margin-right: 57%;
-            padding-right: 2%;
-    }
+.profesionales{
+    h2.text2_profesionales{
+    margin-left: 5%;
+    margin-right: 57%;
+    padding-right: 2%;
+}
     }
 }
 /*Inicia Responsive Profesionales 1700px*/
 @media only screen and (min-width: 1700px)
 {
-    .profesionales{
-        h2.text2_profesionales {
-            margin-top: 135px;
-            margin-left: 57px;
-            margin-right: 973px;
-            padding-right: 89px;
-        }
-        img.img2_profesionales {
-            text-align: center;
-            margin-top: 15px;
-            margin-left: 900px;
-        }
+.profesionales{
+    h2.text2_profesionales {
+        margin-top: 135px;
+        margin-left: 57px;
+        margin-right: 973px;
+        padding-right: 89px;
     }
-    .trabajaConNosotros{
-        input.prof_trabajaConNosotros {
-            margin-left: 930px;
-        }
-        input.ciudad_trabajaConNosotros {
-            padding-right: 1130px;
-        }
-        input.mail_trabajaConNosotros {
-            padding-right: 1130px;
-        }
-        input.tel_trabajaConNosotros {
-            padding-right: 1130px;
-        }
+    img.img2_profesionales {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 900px;
     }
+}
+.trabajaConNosotros{
+    input.prof_trabajaConNosotros {
+        margin-left: 930px;
+    }
+    input.ciudad_trabajaConNosotros {
+        padding-right: 1130px;
+    }
+    input.mail_trabajaConNosotros {
+        padding-right: 1130px;
+    }
+    input.tel_trabajaConNosotros {
+        padding-right: 1130px;
+    }
+}
 }
 /*Inicia Responsive Profesionales 1800px*/
 @media only screen and (min-width: 1800px)
 {
-    .profesionales{
-        h2.text2_profesionales {
-            margin-top: 8%;
-            margin-left: 3%;
-            margin-right: 57%;
-    }
-    h2.text1_profesionales {
-        margin-top: 65px;
-        margin-left: 44%;
-    }
-    img.img1_profesionales {
-        margin-left: 7%;
-    }
-    }
+.profesionales{
+    h2.text2_profesionales {
+        margin-top: 8%;
+        margin-left: 3%;
+        margin-right: 57%;
+}
+h2.text1_profesionales {
+    margin-top: 65px;
+    margin-left: 44%;
+}
+img.img1_profesionales {
+    margin-left: 7%;
+}
+}
 }
 /*Inicia Responsive Quienes somos 1900px*/
 @media only screen and (min-width: 1900px)
@@ -789,25 +789,25 @@
             margin-left: 480px;
         }
     }
-    .trabajaConNosotros{
-        input.nya_trabajaConNosotros {
-            margin-left: 60px;
-            padding-right: 480px;
-        }
-        input.prof_trabajaConNosotros {
-            margin-left: 930px;
-            padding-right: 560px;
-        }
-        input.ciudad_trabajaConNosotros {
-            padding-right: 1430px;
-        }
-        input.mail_trabajaConNosotros {
-            padding-right: 1430px;
-        }
-        input.tel_trabajaConNosotros {
-            padding-right: 1430px;
-        }
+.trabajaConNosotros{
+    input.nya_trabajaConNosotros {
+        margin-left: 60px;
+        padding-right: 480px;
     }
+    input.prof_trabajaConNosotros {
+        margin-left: 930px;
+        padding-right: 560px;
+    }
+    input.ciudad_trabajaConNosotros {
+        padding-right: 1430px;
+    }
+    input.mail_trabajaConNosotros {
+        padding-right: 1430px;
+    }
+    input.tel_trabajaConNosotros {
+        padding-right: 1430px;
+    }
+}
 }
 /*Inicia Responsive Quienes somos 2560px*/
 @media only screen and (min-width: 2560px)

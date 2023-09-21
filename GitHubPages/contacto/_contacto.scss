@@ -140,11 +140,11 @@
         padding-right: 50px;
     }
     iframe{
-            margin-left: 30px;
-            margin-top: 4px;
-            margin-bottom: 100px;
-            width: 700px;
-            height: 304px;
+        margin-left: 30px;
+        margin-top: 4px;
+        margin-bottom: 100px;
+        width: 700px;
+        height: 304px;
     }
     h2.contacto{
         padding: 5px;
@@ -356,15 +356,15 @@
 /*Inicia Responsive Contacto 1900px*/
 @media only screen and (min-width: 1900px)
 {
-    .contacto{
+.contacto{
         h2.contacto {
             margin-left: 68.5%;
         }
     }
-    .contacto h2.mail {
+.contacto h2.mail {
         margin-left: 68.5%;
     }
-    .contacto h2.num {
+.contacto h2.num {
         margin-left: 68.5%;
     }
 }
